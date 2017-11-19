@@ -80,6 +80,7 @@
             this.lblDate.Size = new System.Drawing.Size(143, 20);
             this.lblDate.TabIndex = 1;
             this.lblDate.Text = "October 25 2017";
+            this.lblDate.Click += new System.EventHandler(this.lblDate_Click);
             // 
             // lblSecond
             // 
@@ -199,7 +200,7 @@
             this.People.Iconimage_Selected = null;
             this.People.IconZoom = 90D;
             this.People.IsTab = false;
-            this.People.Location = new System.Drawing.Point(0, 400);
+            this.People.Location = new System.Drawing.Point(0, 409);
             this.People.Name = "People";
             this.People.Normalcolor = System.Drawing.Color.DarkSeaGreen;
             this.People.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
@@ -221,6 +222,7 @@
             this.label4.Size = new System.Drawing.Size(74, 20);
             this.label4.TabIndex = 1;
             this.label4.Text = "user123";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label3
             // 

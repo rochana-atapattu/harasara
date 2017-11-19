@@ -48,6 +48,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.Pay = new System.Windows.Forms.Button();
             this.Reset = new System.Windows.Forms.Button();
+            this.Search = new System.Windows.Forms.Button();
             this.numText = new System.Windows.Forms.TextBox();
             this.emailText = new System.Windows.Forms.TextBox();
             this.label31 = new System.Windows.Forms.Label();
@@ -120,6 +121,7 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.Pay);
             this.groupBox1.Controls.Add(this.Reset);
+            this.groupBox1.Controls.Add(this.Search);
             this.groupBox1.Controls.Add(this.numText);
             this.groupBox1.Controls.Add(this.emailText);
             this.groupBox1.Controls.Add(this.cusText);
@@ -277,7 +279,7 @@
             // 
             this.Cancel_Order.BackColor = System.Drawing.Color.Crimson;
             this.Cancel_Order.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Cancel_Order.Location = new System.Drawing.Point(24, 342);
+            this.Cancel_Order.Location = new System.Drawing.Point(115, 336);
             this.Cancel_Order.Name = "Cancel_Order";
             this.Cancel_Order.Size = new System.Drawing.Size(123, 35);
             this.Cancel_Order.TabIndex = 2;
@@ -299,9 +301,9 @@
             // 
             this.Pay.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.Pay.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Pay.Location = new System.Drawing.Point(153, 342);
+            this.Pay.Location = new System.Drawing.Point(244, 336);
             this.Pay.Name = "Pay";
-            this.Pay.Size = new System.Drawing.Size(103, 35);
+            this.Pay.Size = new System.Drawing.Size(94, 35);
             this.Pay.TabIndex = 2;
             this.Pay.Text = "Pay";
             this.Pay.UseVisualStyleBackColor = false;
@@ -311,13 +313,24 @@
             // 
             this.Reset.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.Reset.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Reset.Location = new System.Drawing.Point(262, 342);
+            this.Reset.Location = new System.Drawing.Point(344, 335);
             this.Reset.Name = "Reset";
-            this.Reset.Size = new System.Drawing.Size(113, 35);
+            this.Reset.Size = new System.Drawing.Size(91, 35);
             this.Reset.TabIndex = 2;
             this.Reset.Text = "Reset";
             this.Reset.UseVisualStyleBackColor = false;
-            this.Reset.Click += new System.EventHandler(this.Reset_Click);
+            // 
+            // Search
+            // 
+            this.Search.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.Search.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Search.Location = new System.Drawing.Point(23, 335);
+            this.Search.Name = "Search";
+            this.Search.Size = new System.Drawing.Size(86, 35);
+            this.Search.TabIndex = 2;
+            this.Search.Text = "Search";
+            this.Search.UseVisualStyleBackColor = false;
+            this.Search.Click += new System.EventHandler(this.button2_Click);
             // 
             // numText
             // 
@@ -426,7 +439,6 @@
             this.Reset1.TabIndex = 2;
             this.Reset1.Text = "Reset";
             this.Reset1.UseVisualStyleBackColor = false;
-            this.Reset1.Click += new System.EventHandler(this.Reset1_Click);
             // 
             // label13
             // 
@@ -481,10 +493,10 @@
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(19, 369);
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(27, 370);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(90, 18);
+            this.label21.Size = new System.Drawing.Size(73, 16);
             this.label21.TabIndex = 0;
             this.label21.Text = "Total Price";
             // 
@@ -570,11 +582,11 @@
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.ForeColor = System.Drawing.Color.Crimson;
-            this.label24.Location = new System.Drawing.Point(185, 368);
+            this.label24.Location = new System.Drawing.Point(185, 372);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(81, 20);
+            this.label24.Size = new System.Drawing.Size(56, 16);
             this.label24.TabIndex = 9;
             this.label24.Text = "XXXXXX";
             // 
@@ -758,6 +770,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox numText;
+        private System.Windows.Forms.Button Search;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.DataGridView dataGridView1;

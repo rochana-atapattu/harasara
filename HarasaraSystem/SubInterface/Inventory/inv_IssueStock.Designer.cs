@@ -43,7 +43,6 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.ReOrder = new System.Windows.Forms.DataGridViewButtonColumn();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -203,21 +202,11 @@
             // dataGridView2
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.ReOrder});
             this.dataGridView2.Location = new System.Drawing.Point(6, 55);
             this.dataGridView2.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.Size = new System.Drawing.Size(762, 198);
             this.dataGridView2.TabIndex = 0;
-            this.dataGridView2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
-            // 
-            // ReOrder
-            // 
-            this.ReOrder.HeaderText = "Action";
-            this.ReOrder.Name = "ReOrder";
-            this.ReOrder.Text = "Re Order";
-            this.ReOrder.UseColumnTextForButtonValue = true;
             // 
             // inv_IssueStock
             // 
@@ -254,6 +243,5 @@
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.DataGridViewButtonColumn ReOrder;
     }
 }

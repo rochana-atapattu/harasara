@@ -13,12 +13,15 @@ namespace Transport
 {
     public partial class vehicle : Form
     {
-        
-        public vehicle(String user)
+        public void SalesSub(string user)
+        {
+            InitializeComponent();
+            label7.Text = user;
+        }
+        public vehicle()
         {
             InitializeComponent();
             timer1.Start();
-            label7.Text = user;
         }
 
         MySqlConnection connnection = new MySqlConnection("server=localhost;user id=root;database=harasara");
@@ -36,7 +39,7 @@ namespace Transport
         private void bunifuImageButton3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Main m1 = new Main("");
+            Main m1 = new Main();
             m1.ShowDialog();
             this.Close();
         }
@@ -49,7 +52,7 @@ namespace Transport
         private void bunifuThinButton4_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Main m1 = new Main(label7.Text);
+            Main m1 = new Main();
             m1.ShowDialog();
             this.Close();
         }
@@ -57,7 +60,7 @@ namespace Transport
         private void bunifuTileButton2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            repair re1 = new repair(label7.Text);
+            repair re1 = new repair();
             re1.ShowDialog();
             this.Close();
 
@@ -371,7 +374,7 @@ namespace Transport
                 {
                     //update table
 
-                    String update = "UPDATE vehicles SET VehicleNumber = '" + this.bunifuCustomTextbox4.Text.ToString() + "', VehicleType = '" + this.bunifuCustomTextbox3.Text.ToString() + "', Milage = '" + Convert.ToInt32(this.bunifuCustomTextbox5.Text.ToString()) + "', NoOfRepairs = '" + Convert.ToInt32(this.bunifuCustomTextbox6.Text.ToString()) + "', Availability = '" + this.bunifuCustomTextbox1.Text.ToString() + "', Notes = '" + this.bunifuCustomTextbox2.Text.ToString() + "' WHERE VehicleID = '"+this.bunifuCustomTextbox7.Text+"' ";
+                    String update = "UPDATE vehicles SET VehicleNumber = '" + this.bunifuCustomTextbox4.Text.ToString() + "' , VehicleType = '" + this.bunifuCustomTextbox3.Text.ToString() + "', Milage = '" + Convert.ToInt32(this.bunifuCustomTextbox5.Text.ToString()) + "', NoOfRepairs = '" + Convert.ToInt32(this.bunifuCustomTextbox6.Text.ToString()) + "', Availability = '" + this.bunifuCustomTextbox2.Text.ToString() + "', Notes = '" + this.bunifuCustomTextbox4.Text.ToString() + "')";
                     MySqlCommand command = new MySqlCommand(update, connnection);
 
                     MySqlCommand cmnd = new MySqlCommand(update, con);

@@ -11,7 +11,7 @@ namespace HarasaraSystem.SubInterface.Production
         private String pid;
         private String oid;
         private int queNum;
-        Boolean progress = true;
+        Boolean progress;
         public Painting(String pid,String oid,int queNum)
         {
             this.pid = pid;
@@ -24,7 +24,7 @@ namespace HarasaraSystem.SubInterface.Production
 
             DBAccess db = new DBAccess();
 
-            db.Update("UPDATE `splittedorder` SET `painting`= '" + progress + "' WHERE `productID`= '" + pid + "',`orderID`= '" + oid + "',`queNo`= '" + queNum + "',");
+            db.Update("UPDATE `splittedorder` SET `painting`= '" + 1 + "' WHERE `productID`= '" + pid + "' AND `orderID`= '" + oid + "' AND `queNo`= '" + queNum + "' ");
         }
     }
 }

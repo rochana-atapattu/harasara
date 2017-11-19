@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace HarasaraSystem.SubInterface.Production
 {
@@ -11,7 +12,7 @@ namespace HarasaraSystem.SubInterface.Production
         private String pid;
         private String oid;
         private int queNum;
-        Boolean progress = true;
+        Boolean progress=true;
         public Cutting(String pid,String oid,int queNum)
         {
             this.pid = pid;
@@ -21,10 +22,10 @@ namespace HarasaraSystem.SubInterface.Production
         }
         public void updateProgress()
         {
-
+           
             DBAccess db = new DBAccess();
 
-            db.Update("UPDATE `splittedorder` SET `cutting`= '" + progress + "' WHERE `productID`= '" + pid + "',`orderID`= '" + oid + "',`queNo`= '" + queNum + "',");
+            db.Update("UPDATE `splittedorder` SET `cutting`= '" + 1 + "' WHERE `productID`= '" + pid + "' AND `orderID`= '" + oid + "' AND `queNo`= '" + queNum + "' ");
         }
     }
 }

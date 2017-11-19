@@ -1,10 +1,3 @@
-C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\bin\Debug\HarasaraSystem.exe.config
-C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\bin\Debug\HarasaraSystem.exe
-C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\bin\Debug\HarasaraSystem.pdb
-C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\bin\Debug\Tulpep.NotificationWindow.dll
-<<<<<<< HEAD
-=======
-C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.csprojResolveAssemblyReference.cache
 C:\Users\Nimesha\Desktop\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.Login.resources
 C:\Users\Nimesha\Desktop\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.MainMenu.resources
 C:\Users\Nimesha\Desktop\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.Properties.Resources.resources
@@ -117,6 +110,7 @@ C:\Users\kavindu\Desktop\Git part2\HarasaraSystem\HarasaraSystem\obj\Debug\Haras
 C:\Users\Viraj Malaka\Desktop\New folder\HarasaraSystem\HarasaraSystem\bin\Debug\HarasaraSystem.exe.config
 C:\Users\Viraj Malaka\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.exe
 C:\Users\Viraj Malaka\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.pdb
+<<<<<<< HEAD
 C:\Users\Rochana\Desktop\Git\2017.11.16 NEW\HarasaraSystem\HarasaraSystem\bin\Debug\HarasaraSystem.exe.config
 C:\Users\Rochana\Desktop\Git\2017.11.16 NEW\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.exe
 C:\Users\Rochana\Desktop\Git\2017.11.16 NEW\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.pdb
@@ -167,6 +161,7 @@ C:\Users\Rochana\Desktop\Git\2017.11.16 NEW\HarasaraSystem\HarasaraSystem\bin\De
 C:\Users\Rochana\Desktop\Git\2017.11.16 NEW\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Production.OrdersUC.resources
 C:\Users\Rochana\Desktop\Git\2017.11.16 NEW\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Production.OrderProcessing.resources
 C:\Users\Rochana\Desktop\Git\2017.11.16 NEW\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Production.OrderProcessingUC.resources
+=======
 C:\Users\Viraj Malaka\Desktop\New folder\HarasaraSystem\HarasaraSystem\bin\Debug\HarasaraSystem.exe
 C:\Users\Viraj Malaka\Desktop\New folder\HarasaraSystem\HarasaraSystem\bin\Debug\HarasaraSystem.pdb
 C:\Users\Viraj Malaka\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.csprojResolveAssemblyReference.cache
@@ -217,28 +212,21 @@ C:\Users\Viraj Malaka\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug
 C:\Users\Viraj Malaka\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.route.resources
 C:\Users\Viraj Malaka\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.SMS.resources
 C:\Users\Viraj Malaka\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.vehicle.resources
->>>>>>> 49f3e517f9b42cbee591bcc04777c1978988a773
 C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.Login.resources
 C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.MainMenu.resources
 C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.Properties.Resources.resources
 C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Administration.AdministrationSub.resources
-C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Administration.Machines.resources
-C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Administration.promo.resources
-C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Administration.SystemAdmins.resources
 C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.attendance.resources
-C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.AttendanceSystem.resources
 C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.details.resources
 C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.EmployeeSub.resources
 C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.leave.resources
 C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.leaverequest.resources
-C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.leave_Details.resources
+C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.notifications.resources
 C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.payrolls.resources
 C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.search.resources
-C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.SMS.resources
 C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.AccountHistory.resources
 C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.AccountHistoryUC_a.resources
 C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.AccountsUC.resources
-C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.EmailUC.resources
 C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.ExpenditureManagerUC.resources
 C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.FinanceSub.resources
 C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Inventory.AddItem.resources
@@ -252,14 +240,11 @@ C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\BMS_har
 C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\BMS_harasara.inv_CheckLevel.resources
 C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\BMS_harasara.inv_FinishStock.resources
 C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\BMS_harasara.inv_IssueStock.resources
-C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Production.OrderProcessingUC.resources
-C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Production.OrdersUC.resources
 C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Production.ProductionSub.resources
 C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.Bill.resources
 C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.CustomMsgBox.resources
 C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.payments.resources
 C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.PurchasingOrders.resources
-C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.SalesMainSub.resources
 C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.SalesOrders.resources
 C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.SalesSub.resources
 C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.setting.resources
@@ -272,11 +257,17 @@ C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\Transpo
 C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.SMS.resources
 C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.vehicle.resources
 C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.csproj.GenerateResource.Cache
+C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\bin\Debug\HarasaraSystem.exe.config
+C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\bin\Debug\HarasaraSystem.exe
+C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\bin\Debug\HarasaraSystem.pdb
+C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\bin\Debug\mscorlib.dll
+C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\bin\Debug\normidna.nlp
+C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\bin\Debug\normnfc.nlp
+C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\bin\Debug\normnfd.nlp
+C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\bin\Debug\normnfkc.nlp
+C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\bin\Debug\normnfkd.nlp
 C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.exe
 C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.pdb
-<<<<<<< HEAD
-C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.csprojResolveAssemblyReference.cache
-=======
 C:\Users\kavindu\Desktop\Git part3\HarasaraSystem\HarasaraSystem\bin\Debug\HarasaraSystem.exe.config
 C:\Users\kavindu\Desktop\Git part3\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.exe
 C:\Users\kavindu\Desktop\Git part3\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.pdb
@@ -396,6 +387,7 @@ C:\Users\Viraj Malaka\Desktop\nime\HarasaraSystem\HarasaraSystem\obj\Debug\Haras
 C:\Users\Viraj Malaka\Desktop\nime\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.EmployeeSub.resources
 C:\Users\Viraj Malaka\Desktop\nime\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.leave.resources
 C:\Users\Viraj Malaka\Desktop\nime\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.leaverequest.resources
+C:\Users\Viraj Malaka\Desktop\nime\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.notifications.resources
 C:\Users\Viraj Malaka\Desktop\nime\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.payrolls.resources
 C:\Users\Viraj Malaka\Desktop\nime\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.search.resources
 C:\Users\Viraj Malaka\Desktop\nime\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.AccountHistory.resources
@@ -433,6 +425,9 @@ C:\Users\Viraj Malaka\Desktop\nime\HarasaraSystem\HarasaraSystem\obj\Debug\Trans
 C:\Users\Viraj Malaka\Desktop\nime\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.vehicle.resources
 C:\Users\Viraj Malaka\Desktop\nime\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.csproj.GenerateResource.Cache
 C:\Users\Viraj Malaka\Desktop\nime\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.pdb
+C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.EmailUC.resources
+C:\Users\Ender\Desktop\Viva work\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.csprojResolveAssemblyReference.cache
+>>>>>>> 3f3817718c861e7247ecb30fcd1ff4d57b877421
 C:\Users\Rochana\Desktop\Git\2017.11.16 NEW\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.EmailUC.resources
 C:\Users\Rochana\Desktop\Git\2017.11.16 NEW\HarasaraSystem\HarasaraSystem\obj\Debug\BMS_harasara.inv_AddStock.resources
 C:\Users\Rochana\Desktop\Git\2017.11.16 NEW\HarasaraSystem\HarasaraSystem\obj\Debug\BMS_harasara.inv_CheckLevel.resources
@@ -446,135 +441,117 @@ C:\Users\Rochana\Desktop\Git\2017.11.16 NEW\HarasaraSystem\HarasaraSystem\obj\De
 C:\Users\Rochana\Desktop\Git\2017.11.16 NEW\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.route.resources
 C:\Users\Rochana\Desktop\Git\2017.11.16 NEW\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.SMS.resources
 C:\Users\Rochana\Desktop\Git\2017.11.16 NEW\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.vehicle.resources
-C:\Users\Viraj Malaka\Desktop\nime\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Production.OrderProcessingUC.resources
-C:\Users\Viraj Malaka\Desktop\nime\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Production.OrdersUC.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\bin\Debug\HarasaraSystem.exe.config
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.exe
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.pdb
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.csprojResolveAssemblyReference.cache
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.Login.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.MainMenu.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.Properties.Resources.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Administration.AdministrationSub.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.attendance.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.details.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.EmployeeSub.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.leave.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.leaverequest.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.notifications.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.payrolls.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.search.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.AccountHistory.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.AccountHistoryUC_a.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.AccountsUC.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.EmailUC.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.ExpenditureManagerUC.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.FinanceSub.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Inventory.AddItem.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.PettyCashUC.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.PettyCashUC_Add.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.PettyCashUC_Add_Edit.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.PettyCashUC_Add_Summary.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.ProfitLossUC_Main.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Inventory.InventorySub.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\BMS_harasara.inv_AddStock.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\BMS_harasara.inv_CheckLevel.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\BMS_harasara.inv_FinishStock.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\BMS_harasara.inv_IssueStock.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Production.OrderProcessingUC.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Production.OrdersUC.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Production.ProductionSub.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.Bill.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.CustomMsgBox.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.payments.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.PurchasingOrders.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.SalesOrders.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.SalesSub.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.setting.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.driver.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.Main.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.orderRoute.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.repair.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.report.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.route.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.SMS.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.vehicle.resources
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.csproj.GenerateResource.Cache
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\bin\Debug\HarasaraSystem.exe
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\bin\Debug\HarasaraSystem.pdb
-C:\Users\kavindu\Desktop\Gitpart4\HarasaraSystem\HarasaraSystem\bin\Debug\Tulpep.NotificationWindow.dll
-C:\Users\Viraj Malaka\Desktop\nime\HarasaraSystem\HarasaraSystem\bin\Debug\Tulpep.NotificationWindow.dll
-C:\Users\Viraj Malaka\Desktop\nime\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Administration.Machines.resources
-C:\Users\Viraj Malaka\Desktop\nime\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Administration.promo.resources
-C:\Users\Viraj Malaka\Desktop\nime\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Administration.SystemAdmins.resources
-C:\Users\Viraj Malaka\Desktop\nime\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.SalesMainSub.resources
-C:\Users\Viraj Malaka\Desktop\nime\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.AttendanceSystem.resources
-C:\Users\Viraj Malaka\Desktop\nime\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.leave_Details.resources
-C:\Users\Viraj Malaka\Desktop\nime\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.SMS.resources
-C:\Users\Viraj Malaka\Desktop\nime\HarasaraSystem\HarasaraSystem\bin\Debug\HarasaraSystem.exe.manifest
-C:\Users\Viraj Malaka\Desktop\nime\HarasaraSystem\HarasaraSystem\bin\Debug\HarasaraSystem.application
-C:\Users\Viraj Malaka\Desktop\nime\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.exe.manifest
-C:\Users\Viraj Malaka\Desktop\nime\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.application
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\bin\Debug\HarasaraSystem.exe.config
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.exe
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.pdb
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.csprojResolveAssemblyReference.cache
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.Login.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.Properties.Resources.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Administration.AdministrationSub.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Administration.Machines.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Administration.promo.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Administration.SystemAdmins.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.attendance.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.AttendanceSystem.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.details.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.EmployeeSub.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.leave.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.leaverequest.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.leave_Details.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.payrolls.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.search.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.SMS.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.AccountHistory.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.AccountHistoryUC_a.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.AccountsUC.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.EmailUC.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.ExpenditureManagerUC.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.FinanceSub.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Inventory.AddItem.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.PettyCashUC.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.PettyCashUC_Add.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.PettyCashUC_Add_Edit.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.PettyCashUC_Add_Summary.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.ProfitLossUC_Main.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Inventory.InventorySub.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\BMS_harasara.inv_AddStock.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\BMS_harasara.inv_CheckLevel.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\BMS_harasara.inv_FinishStock.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\BMS_harasara.inv_IssueStock.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Production.OrderProcessingUC.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Production.OrdersUC.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Production.ProductionSub.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.Bill.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.CustomMsgBox.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.payments.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.PurchasingOrders.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.SalesMainSub.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.SalesOrders.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.SalesSub.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.setting.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.driver.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.Main.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.orderRoute.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.repair.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.report.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.route.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.SMS.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.vehicle.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.csproj.GenerateResource.Cache
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.MainMenu.resources
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\bin\Debug\HarasaraSystem.exe
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\bin\Debug\HarasaraSystem.pdb
-C:\Users\Viraj Malaka\Desktop\New folder (2)\HarasaraSystem\HarasaraSystem\bin\Debug\Tulpep.NotificationWindow.dll
-C:\Users\Viraj Malaka\Desktop\nime\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.FinanceReportUC.resources
->>>>>>> 49f3e517f9b42cbee591bcc04777c1978988a773
+C:\Users\Rochana\Desktop\Git\2017.11.16 NEW\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Production.AddProduct.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 NEW\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Production.ProductItems.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\bin\Debug\HarasaraSystem.exe.config
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.exe
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.pdb
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\bin\Debug\HarasaraSystem.exe
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\bin\Debug\HarasaraSystem.pdb
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.csprojResolveAssemblyReference.cache
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.Login.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.MainMenu.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.Properties.Resources.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Administration.AdministrationSub.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.attendance.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.details.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.EmployeeSub.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.leave.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.leaverequest.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.notifications.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.payrolls.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.search.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.AccountHistory.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.AccountHistoryUC_a.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.AccountsUC.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.EmailUC.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.ExpenditureManagerUC.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.FinanceSub.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Inventory.AddItem.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.PettyCashUC.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.PettyCashUC_Add.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.PettyCashUC_Add_Edit.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.PettyCashUC_Add_Summary.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.ProfitLossUC_Main.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Inventory.InventorySub.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\BMS_harasara.inv_AddStock.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\BMS_harasara.inv_CheckLevel.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\BMS_harasara.inv_FinishStock.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\BMS_harasara.inv_IssueStock.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Production.AddProduct.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Production.OrderProcessingUC.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Production.OrdersUC.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Production.ProductionSub.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Production.ProductItems.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.Bill.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.CustomMsgBox.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.payments.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.PurchasingOrders.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.SalesOrders.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.SalesSub.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.setting.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.driver.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.Main.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.orderRoute.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.repair.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.report.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.route.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.SMS.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.vehicle.resources
+C:\Users\Rochana\Desktop\Git\2017.11.16 12.10\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.csproj.GenerateResource.Cache
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\bin\Debug\HarasaraSystem.exe.config
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.exe
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.pdb
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.csprojResolveAssemblyReference.cache
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.Login.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.MainMenu.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.Properties.Resources.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Administration.AdministrationSub.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.attendance.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.details.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.EmployeeSub.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.leave.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.leaverequest.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.notifications.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.payrolls.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Employee.search.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.AccountHistory.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.AccountHistoryUC_a.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.AccountsUC.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.EmailUC.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.ExpenditureManagerUC.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.FinanceSub.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Inventory.AddItem.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.PettyCashUC.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.PettyCashUC_Add.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.PettyCashUC_Add_Edit.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.PettyCashUC_Add_Summary.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Finance.ProfitLossUC_Main.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Inventory.InventorySub.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\BMS_harasara.inv_AddStock.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\BMS_harasara.inv_CheckLevel.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\BMS_harasara.inv_FinishStock.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\BMS_harasara.inv_IssueStock.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Production.AddProduct.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Production.OrderProcessingUC.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Production.OrdersUC.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Production.ProductionSub.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Production.ProductItems.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.Bill.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.CustomMsgBox.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.payments.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.PurchasingOrders.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.SalesOrders.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.SalesSub.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.SubInterface.Sales.setting.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.driver.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.Main.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.orderRoute.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.repair.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.report.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.route.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.SMS.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\Transport.vehicle.resources
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\obj\Debug\HarasaraSystem.csproj.GenerateResource.Cache
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\bin\Debug\HarasaraSystem.exe
+C:\Users\Rochana\Desktop\New folder\HarasaraSystem\HarasaraSystem\bin\Debug\HarasaraSystem.pdb

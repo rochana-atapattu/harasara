@@ -216,7 +216,7 @@
             this.BillProducts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.BillProducts.Location = new System.Drawing.Point(12, 191);
             this.BillProducts.Name = "BillProducts";
-            this.BillProducts.Size = new System.Drawing.Size(440, 277);
+            this.BillProducts.Size = new System.Drawing.Size(450, 277);
             this.BillProducts.TabIndex = 2;
             // 
             // PriceL

@@ -168,43 +168,19 @@ namespace HarasaraSystem.SubInterface.Sales
             string number="select contactNumber from supplier where SupID='"+label9.Text+"'";
             string add="select Address from supplier where SupID='"+label9.Text+"'";
             string acNum = "select AccountNumber from supplier where SupID='" + label9.Text + "'";
-            string FINAL="select Price from purchaseorders where OrderId='"+label8.Text+"'";
+            string FINAL="select Price from purchaseorders where SupplierId='"+label9.Text+"'";
 
             databaseAccess d1=new databaseAccess();
             string conNum=d1.getString(number);
             string Add=d1.getString(add);
             string acc = d1.getString(acNum);
             string price=d1.getString(FINAL);
-            Bill b = new Bill(textBox1.Text ,conNum, Add,acc, label8.Text ,price, label9.Text,2);
+            Bill b = new Bill(textBox1.Text,conNum,Add,acc,label8.Text,price,label9.Text,2);
             b.Show();
 
         }
 
-        private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
-        {
-            int i = dataGridView1.SelectedCells[0].RowIndex;
-            string ID = (dataGridView1.Rows[i].Cells[1].Value).ToString();
-            int OrID = Convert.ToInt32(dataGridView1.Rows[i].Cells[0].Value);
-            double price = Convert.ToDouble(dataGridView1.Rows[i].Cells[2].Value);
 
-            label8.Text = OrID.ToString();
-            label9.Text = ID;
-
-            databaseAccess d1 = new databaseAccess();
-           string query="select supplierName from supplier where SupID='"+label9.Text+"'";
-           textBox1.Text = d1.getString(query);
-           label21.Text = price.ToString();
-        }
-
-        private void PurchasingOrders_Load(object sender, EventArgs e)
-        {
-            string query = "select item_id,name,count  from inventory where count=rol";
-
-            databaseAccess d1 = new databaseAccess();
-            d1.displayData(query, dataGridView2);
-        }
-
-        
 
     }
 }

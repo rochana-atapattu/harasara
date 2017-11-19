@@ -14,18 +14,27 @@ namespace HarasaraSystem.SubInterface.Production
         DBAccess db = new DBAccess();
         public void checkAvailability()
         {
-            String query = "SELECT * FROM inventory";
+            String query = "SELECT * FROM `product_items` WHERE ProductItemID= '" +  "123" + "' ";
 
             DataTable dt = new DataTable();
             dt = db.Select(query);
 
 
+
+            //String query1 = "SELECT  `count` FROM `inventory` WHERE `item_id`= ";
+            //DataTable dt1 = new DataTable();
+            //dt1 = db.Select(query1);
+
+
             var rowColl = dt.AsEnumerable();
             int count = (from r in rowColl
-                           where r.Field<int>("item_id") == 2
-                           select r.Field<int>("count")).First<int>();
+                         where r.Field<int>("ProductItemId") == 1
+                         where r.Field<int>("ProductNo") == 123
+                         select r.Field<int>("Qty")).First<int>();
 
-            MessageBox.Show("count is " + count);
+            MessageBox.Show(count.ToString());
+
+            //MessageBox.Show("count is " + count);
         }
         
         

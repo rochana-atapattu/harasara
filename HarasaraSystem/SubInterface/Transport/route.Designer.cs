@@ -31,7 +31,6 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(route));
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
             this.lblDate = new System.Windows.Forms.Label();
             this.lblSecond = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -83,7 +82,6 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.SeaGreen;
-            this.panel2.Controls.Add(this.label8);
             this.panel2.Controls.Add(this.lblDate);
             this.panel2.Controls.Add(this.lblSecond);
             this.panel2.Controls.Add(this.label6);
@@ -92,19 +90,8 @@
             this.panel2.Controls.Add(this.bunifuImageButton1);
             this.panel2.Location = new System.Drawing.Point(1, 1);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(921, 26);
+            this.panel2.Size = new System.Drawing.Size(935, 26);
             this.panel2.TabIndex = 8;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(7, 2);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(241, 20);
-            this.label8.TabIndex = 98;
-            this.label8.Text = "Harasara Industries (Pvt) Ltd";
             // 
             // lblDate
             // 
@@ -246,7 +233,6 @@
             this.bunifuThinButton5.Name = "bunifuThinButton5";
             this.bunifuThinButton5.Size = new System.Drawing.Size(121, 36);
             this.bunifuThinButton5.TabIndex = 22;
-            this.bunifuThinButton5.Click += new System.EventHandler(this.bunifuThinButton5_Click);
             // 
             // bunifuThinButton2
             // 
@@ -521,7 +507,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(669, 180);
             this.dataGridView1.TabIndex = 82;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // bunifuThinButton10
             // 
@@ -709,6 +694,5 @@
         private System.Windows.Forms.Label lblDate;
         private System.Windows.Forms.Label lblSecond;
         private System.Windows.Forms.Label lblTime;
-        private System.Windows.Forms.Label label8;
     }
 }

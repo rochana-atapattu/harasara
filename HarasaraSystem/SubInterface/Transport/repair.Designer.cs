@@ -33,10 +33,7 @@
             this.bunifuImageButton2 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.lblDate = new System.Windows.Forms.Label();
-            this.lblSecond = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.lblTime = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -63,8 +60,10 @@
             this.bunifuThinButton9 = new WindowsFormsControlLibrary1.BunifuThinButton();
             this.bunifuThinButton10 = new WindowsFormsControlLibrary1.BunifuThinButton();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.lblDate = new System.Windows.Forms.Label();
+            this.lblSecond = new System.Windows.Forms.Label();
+            this.lblTime = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -104,7 +103,6 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.SeaGreen;
-            this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.lblDate);
             this.panel2.Controls.Add(this.lblSecond);
             this.panel2.Controls.Add(this.label4);
@@ -116,28 +114,6 @@
             this.panel2.Size = new System.Drawing.Size(725, 26);
             this.panel2.TabIndex = 32;
             // 
-            // lblDate
-            // 
-            this.lblDate.AutoSize = true;
-            this.lblDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDate.ForeColor = System.Drawing.Color.White;
-            this.lblDate.Location = new System.Drawing.Point(410, 3);
-            this.lblDate.Name = "lblDate";
-            this.lblDate.Size = new System.Drawing.Size(143, 20);
-            this.lblDate.TabIndex = 101;
-            this.lblDate.Text = "October 25 2017";
-            // 
-            // lblSecond
-            // 
-            this.lblSecond.AutoSize = true;
-            this.lblSecond.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSecond.ForeColor = System.Drawing.Color.White;
-            this.lblSecond.Location = new System.Drawing.Point(614, 3);
-            this.lblSecond.Name = "lblSecond";
-            this.lblSecond.Size = new System.Drawing.Size(34, 20);
-            this.lblSecond.TabIndex = 102;
-            this.lblSecond.Text = ":22";
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -148,17 +124,6 @@
             this.label4.Size = new System.Drawing.Size(111, 20);
             this.label4.TabIndex = 81;
             this.label4.Text = "Repair Menu";
-            // 
-            // lblTime
-            // 
-            this.lblTime.AutoSize = true;
-            this.lblTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTime.ForeColor = System.Drawing.Color.White;
-            this.lblTime.Location = new System.Drawing.Point(559, 3);
-            this.lblTime.Name = "lblTime";
-            this.lblTime.Size = new System.Drawing.Size(59, 20);
-            this.lblTime.TabIndex = 103;
-            this.lblTime.Text = "22 :22";
             // 
             // panel1
             // 
@@ -506,20 +471,42 @@
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
+            // lblDate
+            // 
+            this.lblDate.AutoSize = true;
+            this.lblDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDate.ForeColor = System.Drawing.Color.White;
+            this.lblDate.Location = new System.Drawing.Point(410, 3);
+            this.lblDate.Name = "lblDate";
+            this.lblDate.Size = new System.Drawing.Size(143, 20);
+            this.lblDate.TabIndex = 101;
+            this.lblDate.Text = "October 25 2017";
+            // 
+            // lblSecond
+            // 
+            this.lblSecond.AutoSize = true;
+            this.lblSecond.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSecond.ForeColor = System.Drawing.Color.White;
+            this.lblSecond.Location = new System.Drawing.Point(614, 3);
+            this.lblSecond.Name = "lblSecond";
+            this.lblSecond.Size = new System.Drawing.Size(34, 20);
+            this.lblSecond.TabIndex = 102;
+            this.lblSecond.Text = ":22";
+            // 
+            // lblTime
+            // 
+            this.lblTime.AutoSize = true;
+            this.lblTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTime.ForeColor = System.Drawing.Color.White;
+            this.lblTime.Location = new System.Drawing.Point(559, 3);
+            this.lblTime.Name = "lblTime";
+            this.lblTime.Size = new System.Drawing.Size(59, 20);
+            this.lblTime.TabIndex = 103;
+            this.lblTime.Text = "22 :22";
+            // 
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(9, 2);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(241, 20);
-            this.label3.TabIndex = 81;
-            this.label3.Text = "Harasara Industries (Pvt) Ltd";
             // 
             // repair
             // 
@@ -603,6 +590,5 @@
         private System.Windows.Forms.Label lblSecond;
         private System.Windows.Forms.Label lblTime;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Label label3;
     }
 }

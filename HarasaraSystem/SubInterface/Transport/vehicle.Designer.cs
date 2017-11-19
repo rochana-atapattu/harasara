@@ -31,11 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(vehicle));
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.lblDate = new System.Windows.Forms.Label();
-            this.lblSecond = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.lblTime = new System.Windows.Forms.Label();
             this.bunifuImageButton2 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuTextbox1 = new Bunifu.Framework.UI.BunifuTextbox();
@@ -70,6 +66,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.lblDate = new System.Windows.Forms.Label();
+            this.lblSecond = new System.Windows.Forms.Label();
+            this.lblTime = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
@@ -82,7 +81,6 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.SeaGreen;
-            this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.lblDate);
             this.panel2.Controls.Add(this.lblSecond);
             this.panel2.Controls.Add(this.label4);
@@ -94,39 +92,6 @@
             this.panel2.Size = new System.Drawing.Size(1045, 26);
             this.panel2.TabIndex = 7;
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(5, 2);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(241, 20);
-            this.label5.TabIndex = 95;
-            this.label5.Text = "Harasara Industries (Pvt) Ltd";
-            // 
-            // lblDate
-            // 
-            this.lblDate.AutoSize = true;
-            this.lblDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDate.ForeColor = System.Drawing.Color.White;
-            this.lblDate.Location = new System.Drawing.Point(709, 3);
-            this.lblDate.Name = "lblDate";
-            this.lblDate.Size = new System.Drawing.Size(143, 20);
-            this.lblDate.TabIndex = 101;
-            this.lblDate.Text = "October 25 2017";
-            // 
-            // lblSecond
-            // 
-            this.lblSecond.AutoSize = true;
-            this.lblSecond.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSecond.ForeColor = System.Drawing.Color.White;
-            this.lblSecond.Location = new System.Drawing.Point(913, 3);
-            this.lblSecond.Name = "lblSecond";
-            this.lblSecond.Size = new System.Drawing.Size(34, 20);
-            this.lblSecond.TabIndex = 102;
-            this.lblSecond.Text = ":22";
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -137,17 +102,6 @@
             this.label4.Size = new System.Drawing.Size(126, 20);
             this.label4.TabIndex = 95;
             this.label4.Text = "Vehicles Menu";
-            // 
-            // lblTime
-            // 
-            this.lblTime.AutoSize = true;
-            this.lblTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTime.ForeColor = System.Drawing.Color.White;
-            this.lblTime.Location = new System.Drawing.Point(858, 3);
-            this.lblTime.Name = "lblTime";
-            this.lblTime.Size = new System.Drawing.Size(59, 20);
-            this.lblTime.TabIndex = 103;
-            this.lblTime.Text = "22 :22";
             // 
             // bunifuImageButton2
             // 
@@ -603,6 +557,39 @@
             this.label3.Size = new System.Drawing.Size(0, 13);
             this.label3.TabIndex = 94;
             // 
+            // lblDate
+            // 
+            this.lblDate.AutoSize = true;
+            this.lblDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDate.ForeColor = System.Drawing.Color.White;
+            this.lblDate.Location = new System.Drawing.Point(709, 3);
+            this.lblDate.Name = "lblDate";
+            this.lblDate.Size = new System.Drawing.Size(143, 20);
+            this.lblDate.TabIndex = 101;
+            this.lblDate.Text = "October 25 2017";
+            // 
+            // lblSecond
+            // 
+            this.lblSecond.AutoSize = true;
+            this.lblSecond.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSecond.ForeColor = System.Drawing.Color.White;
+            this.lblSecond.Location = new System.Drawing.Point(913, 3);
+            this.lblSecond.Name = "lblSecond";
+            this.lblSecond.Size = new System.Drawing.Size(34, 20);
+            this.lblSecond.TabIndex = 102;
+            this.lblSecond.Text = ":22";
+            // 
+            // lblTime
+            // 
+            this.lblTime.AutoSize = true;
+            this.lblTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTime.ForeColor = System.Drawing.Color.White;
+            this.lblTime.Location = new System.Drawing.Point(858, 3);
+            this.lblTime.Name = "lblTime";
+            this.lblTime.Size = new System.Drawing.Size(59, 20);
+            this.lblTime.TabIndex = 103;
+            this.lblTime.Text = "22 :22";
+            // 
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
@@ -701,7 +688,6 @@
         private System.Windows.Forms.Label lblSecond;
         private System.Windows.Forms.Label lblTime;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Label label5;
 
     }
 }

@@ -37,14 +37,11 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.bunifuThinButton3 = new WindowsFormsControlLibrary1.BunifuThinButton();
             this.bunifuThinButton1 = new WindowsFormsControlLibrary1.BunifuThinButton();
+            this.bunifuThinButton2 = new WindowsFormsControlLibrary1.BunifuThinButton();
             this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuImageButton2 = new Bunifu.Framework.UI.BunifuImageButton();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.lblDate = new System.Windows.Forms.Label();
-            this.lblSecond = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.lblTime = new System.Windows.Forms.Label();
             this.bunifuFlatButton2 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panel3 = new System.Windows.Forms.Panel();
             this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -53,6 +50,9 @@
             this.panel6 = new System.Windows.Forms.Panel();
             this.bunifuFlatButton5 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.lblDate = new System.Windows.Forms.Label();
+            this.lblSecond = new System.Windows.Forms.Label();
+            this.lblTime = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -129,6 +129,7 @@
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.bunifuThinButton3);
             this.panel1.Controls.Add(this.bunifuThinButton1);
+            this.panel1.Controls.Add(this.bunifuThinButton2);
             this.panel1.Location = new System.Drawing.Point(0, 24);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(197, 475);
@@ -168,7 +169,7 @@
             this.bunifuThinButton3.IconVisible = true;
             this.bunifuThinButton3.IconZoom = 90D;
             this.bunifuThinButton3.ImageIconOverlay = false;
-            this.bunifuThinButton3.Location = new System.Drawing.Point(35, 269);
+            this.bunifuThinButton3.Location = new System.Drawing.Point(35, 290);
             this.bunifuThinButton3.Name = "bunifuThinButton3";
             this.bunifuThinButton3.Size = new System.Drawing.Size(121, 36);
             this.bunifuThinButton3.TabIndex = 23;
@@ -186,11 +187,29 @@
             this.bunifuThinButton1.IconVisible = true;
             this.bunifuThinButton1.IconZoom = 90D;
             this.bunifuThinButton1.ImageIconOverlay = false;
-            this.bunifuThinButton1.Location = new System.Drawing.Point(35, 191);
+            this.bunifuThinButton1.Location = new System.Drawing.Point(35, 231);
             this.bunifuThinButton1.Name = "bunifuThinButton1";
             this.bunifuThinButton1.Size = new System.Drawing.Size(121, 36);
             this.bunifuThinButton1.TabIndex = 22;
             this.bunifuThinButton1.Click += new System.EventHandler(this.bunifuThinButton1_Click);
+            // 
+            // bunifuThinButton2
+            // 
+            this.bunifuThinButton2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton2.BackgroundImage")));
+            this.bunifuThinButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuThinButton2.ButtonText = "Back";
+            this.bunifuThinButton2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton2.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.bunifuThinButton2.ForeColorHoverState = System.Drawing.Color.White;
+            this.bunifuThinButton2.Iconimage = null;
+            this.bunifuThinButton2.IconVisible = true;
+            this.bunifuThinButton2.IconZoom = 90D;
+            this.bunifuThinButton2.ImageIconOverlay = false;
+            this.bunifuThinButton2.Location = new System.Drawing.Point(35, 174);
+            this.bunifuThinButton2.Name = "bunifuThinButton2";
+            this.bunifuThinButton2.Size = new System.Drawing.Size(121, 36);
+            this.bunifuThinButton2.TabIndex = 9;
+            this.bunifuThinButton2.Click += new System.EventHandler(this.bunifuThinButton2_Click);
             // 
             // bunifuImageButton1
             // 
@@ -223,7 +242,6 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.SeaGreen;
-            this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.lblDate);
             this.panel2.Controls.Add(this.lblSecond);
             this.panel2.Controls.Add(this.label1);
@@ -235,60 +253,16 @@
             this.panel2.Size = new System.Drawing.Size(1061, 26);
             this.panel2.TabIndex = 5;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(3, 2);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(241, 20);
-            this.label2.TabIndex = 12;
-            this.label2.Text = "Harasara Industries (Pvt) Ltd";
-            // 
-            // lblDate
-            // 
-            this.lblDate.AutoSize = true;
-            this.lblDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDate.ForeColor = System.Drawing.Color.White;
-            this.lblDate.Location = new System.Drawing.Point(535, 3);
-            this.lblDate.Name = "lblDate";
-            this.lblDate.Size = new System.Drawing.Size(143, 20);
-            this.lblDate.TabIndex = 101;
-            this.lblDate.Text = "October 25 2017";
-            // 
-            // lblSecond
-            // 
-            this.lblSecond.AutoSize = true;
-            this.lblSecond.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSecond.ForeColor = System.Drawing.Color.White;
-            this.lblSecond.Location = new System.Drawing.Point(739, 3);
-            this.lblSecond.Name = "lblSecond";
-            this.lblSecond.Size = new System.Drawing.Size(34, 20);
-            this.lblSecond.TabIndex = 102;
-            this.lblSecond.Text = ":22";
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(347, 2);
+            this.label1.Location = new System.Drawing.Point(319, 2);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(161, 20);
+            this.label1.Size = new System.Drawing.Size(210, 20);
             this.label1.TabIndex = 9;
-            this.label1.Text = "Transport manager";
-            // 
-            // lblTime
-            // 
-            this.lblTime.AutoSize = true;
-            this.lblTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTime.ForeColor = System.Drawing.Color.White;
-            this.lblTime.Location = new System.Drawing.Point(684, 3);
-            this.lblTime.Name = "lblTime";
-            this.lblTime.Size = new System.Drawing.Size(59, 20);
-            this.lblTime.TabIndex = 103;
-            this.lblTime.Text = "22 :22";
+            this.label1.Text = "Transport manager menu";
             // 
             // bunifuFlatButton2
             // 
@@ -420,6 +394,39 @@
             this.panel7.Size = new System.Drawing.Size(864, 63);
             this.panel7.TabIndex = 11;
             // 
+            // lblDate
+            // 
+            this.lblDate.AutoSize = true;
+            this.lblDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDate.ForeColor = System.Drawing.Color.White;
+            this.lblDate.Location = new System.Drawing.Point(535, 3);
+            this.lblDate.Name = "lblDate";
+            this.lblDate.Size = new System.Drawing.Size(143, 20);
+            this.lblDate.TabIndex = 101;
+            this.lblDate.Text = "October 25 2017";
+            // 
+            // lblSecond
+            // 
+            this.lblSecond.AutoSize = true;
+            this.lblSecond.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSecond.ForeColor = System.Drawing.Color.White;
+            this.lblSecond.Location = new System.Drawing.Point(739, 3);
+            this.lblSecond.Name = "lblSecond";
+            this.lblSecond.Size = new System.Drawing.Size(34, 20);
+            this.lblSecond.TabIndex = 102;
+            this.lblSecond.Text = ":22";
+            // 
+            // lblTime
+            // 
+            this.lblTime.AutoSize = true;
+            this.lblTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTime.ForeColor = System.Drawing.Color.White;
+            this.lblTime.Location = new System.Drawing.Point(684, 3);
+            this.lblTime.Name = "lblTime";
+            this.lblTime.Size = new System.Drawing.Size(59, 20);
+            this.lblTime.TabIndex = 103;
+            this.lblTime.Text = "22 :22";
+            // 
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
@@ -466,6 +473,7 @@
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton1;
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton2;
         private System.Windows.Forms.Panel panel2;
+        private WindowsFormsControlLibrary1.BunifuThinButton bunifuThinButton2;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
@@ -483,7 +491,6 @@
         private System.Windows.Forms.Label lblSecond;
         private System.Windows.Forms.Label lblTime;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Label label2;
     }
 }
 

@@ -17,6 +17,8 @@ namespace HarasaraSystem.SubInterface.Production
          private String pid;
          private String status="in progress";
          String q;
+
+         
          public splitOrder(String oid, String pid)
          {
              this.oid = oid;
@@ -29,11 +31,12 @@ namespace HarasaraSystem.SubInterface.Production
         DBAccess db = new DBAccess();
 
 
-        public void split()
+        public Boolean split()
         {
             if (checkOrder(pid,oid))
             {
-                MessageBox.Show("There order is already added");
+                MessageBox.Show("The order is already processing");
+                return false;
             }
             else
             {
@@ -54,23 +57,31 @@ namespace HarasaraSystem.SubInterface.Production
                     db.Insert("INSERT INTO `splittedorder` (`productID`, `orderID`, `queNo`) VALUES ('" + pid + "', '" + oid + "','" + i + "')");
                 }
                 db.Update("UPDATE `products` SET `status` = '" + status + "' WHERE `productID` = '" + pid + "' AND `orderID` = '" + oid + "'");
+
+                dt.Dispose();
+                return true;
             }
         }
             public Boolean checkOrder(String pid,String oid)
             {
                 DataTable dt = new DataTable();
+                
                 String query = "SELECT * FROM splittedOrder where orderID = '" + oid + "' AND productID = '" + pid + "'";
                 dt = db.Select(query);
 
                 if (dt.Rows.Count > 0)
                 {
-                    
+
+                        dt.Dispose();
                         return true;
                 }
                 else
                 {
+                    dt.Dispose();
                     return false;
                 }
+
+                
 
             }
         

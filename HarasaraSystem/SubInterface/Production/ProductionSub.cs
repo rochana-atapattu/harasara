@@ -73,5 +73,11 @@ namespace HarasaraSystem.SubInterface.Production
                 HarasaraSystem.SubInterface.Production.OrderProcessingUC.Instance.BringToFront();
             }
         }
+
+        private void bunifuFlatButton3_Click(object sender, EventArgs e)
+        {
+            AddProduct ap = new AddProduct();
+            ap.Show();
+        }
     }
 }

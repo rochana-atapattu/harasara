@@ -24,7 +24,7 @@ namespace BMS_harasara
             {
                 MessageBox.Show("Check the Database Connection");
             }
-
+            
         }
 
         public void closeconn()
@@ -47,7 +47,7 @@ namespace BMS_harasara
         {
             string x = qry;
             DataTable dt = new DataTable();
-            MySqlDataAdapter da = new MySqlDataAdapter(x, conn);
+            MySqlDataAdapter da = new MySqlDataAdapter(x,conn);
             da.Fill(dt);
             return dt;
         }
@@ -72,10 +72,10 @@ namespace BMS_harasara
             return arr;
         }*/
 
-        public int retval(string qry, string coln)
+        public int retval(string qry,string coln)
         {
             string y = qry;
-            string cn = coln;
+            string cn=coln;
             //MySqlDataAdapter da = new MySqlDataAdapter(y, conn);
             //da.Update(Val);
             //return Val;
@@ -83,53 +83,25 @@ namespace BMS_harasara
             //{
             openconn();
 
-            MySqlCommand cmd1 = new MySqlCommand(y, conn);
+                MySqlCommand cmd1 = new MySqlCommand(y, conn);
 
-            MySqlDataReader usernameRdr = null;
+                MySqlDataReader usernameRdr = null;
 
-            usernameRdr = cmd1.ExecuteReader();
+                usernameRdr = cmd1.ExecuteReader();
 
-            //while (usernameRdr.Read())
-            //{
-            int username11 = (int)usernameRdr[coln];
-            return username11;
-            //}
-            // }
+                //while (usernameRdr.Read())
+                //{
+                    int username11 = (int)usernameRdr[coln];
+                    return username11;
+                //}
+           // }
             //catch (Exception ex)
             //{
-            // MessageBox.Show("Database Error");
-            // return 0;
+               // MessageBox.Show("Database Error");
+               // return 0;
             //}
 
             //return 0;
-        }
-
-        public void displayData(string query, DataGridView dw)
-        {
-            conn.Open();
-            try
-            {
-
-
-                MySqlCommand cmd = conn.CreateCommand();
-
-                cmd.CommandType = CommandType.Text;
-                cmd.CommandText = query;
-                cmd.ExecuteNonQuery();
-
-
-                DataTable dt = new DataTable();
-
-                MySqlDataAdapter da = new MySqlDataAdapter(cmd);
-                da.Fill(dt);
-                dw.DataSource = dt;
-                conn.Close();
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Database Error");
-            }
         }
     }
 }

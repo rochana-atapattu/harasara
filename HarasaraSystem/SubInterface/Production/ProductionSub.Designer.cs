@@ -158,12 +158,12 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.panel2.Controls.Add(this.bunifuFlatButton3);
             this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.bunifuFlatButton5);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.bunifuFlatButton4);
-            this.panel2.Controls.Add(this.bunifuFlatButton3);
             this.panel2.Controls.Add(this.bunifuFlatButton2);
             this.panel2.Controls.Add(this.bunifuFlatButton1);
             this.panel2.Location = new System.Drawing.Point(0, 29);
@@ -266,7 +266,7 @@
             this.bunifuFlatButton3.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.bunifuFlatButton3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bunifuFlatButton3.BorderRadius = 0;
-            this.bunifuFlatButton3.ButtonText = "     Bunifu Flat Button";
+            this.bunifuFlatButton3.ButtonText = "Product Handling";
             this.bunifuFlatButton3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuFlatButton3.Iconcolor = System.Drawing.Color.Transparent;
             this.bunifuFlatButton3.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton3.Iconimage")));
@@ -275,7 +275,7 @@
             this.bunifuFlatButton3.Iconimage_Selected = null;
             this.bunifuFlatButton3.IconZoom = 90D;
             this.bunifuFlatButton3.IsTab = false;
-            this.bunifuFlatButton3.Location = new System.Drawing.Point(0, 331);
+            this.bunifuFlatButton3.Location = new System.Drawing.Point(0, 193);
             this.bunifuFlatButton3.Name = "bunifuFlatButton3";
             this.bunifuFlatButton3.Normalcolor = System.Drawing.Color.DarkSeaGreen;
             this.bunifuFlatButton3.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
@@ -285,6 +285,7 @@
             this.bunifuFlatButton3.TabIndex = 0;
             this.bunifuFlatButton3.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton3.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton3.Click += new System.EventHandler(this.bunifuFlatButton3_Click);
             // 
             // bunifuFlatButton2
             // 
@@ -328,7 +329,7 @@
             this.bunifuFlatButton1.Iconimage_Selected = null;
             this.bunifuFlatButton1.IconZoom = 90D;
             this.bunifuFlatButton1.IsTab = false;
-            this.bunifuFlatButton1.Location = new System.Drawing.Point(0, 193);
+            this.bunifuFlatButton1.Location = new System.Drawing.Point(0, 331);
             this.bunifuFlatButton1.Name = "bunifuFlatButton1";
             this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.DarkSeaGreen;
             this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));

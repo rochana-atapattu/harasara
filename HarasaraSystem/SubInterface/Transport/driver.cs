@@ -15,12 +15,15 @@ namespace Transport
 
     public partial class driver : Form
     {
-        
-           
-        public driver(String user)
+        public void SalesSub(string user)
         {
             InitializeComponent();
             label7.Text = user;
+        }
+           
+        public driver()
+        {
+            InitializeComponent();
             timer1.Start();
         }
 
@@ -33,9 +36,10 @@ namespace Transport
 
         private void bunifuImageButton3_Click(object sender, EventArgs e)
         {
-            HarasaraSystem.MainMenu mm = new HarasaraSystem.MainMenu();
             this.Hide();
-            mm.Show();
+            Main m1 = new Main();
+            m1.ShowDialog();
+            this.Close();
         }
 
         private void bunifuImageButton1_Click(object sender, EventArgs e)
@@ -61,7 +65,7 @@ namespace Transport
         private void bunifuThinButton2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Main m1 = new Main("");
+            Main m1 = new Main();
             m1.ShowDialog();
             this.Close();
         }
@@ -90,7 +94,7 @@ namespace Transport
         private void bunifuThinButton2_Click_1(object sender, EventArgs e)
         {
             this.Hide();
-            Main m1 = new Main(label7.Text);
+            Main m1 = new Main();
             m1.ShowDialog();
             this.Close();
         }
@@ -259,7 +263,7 @@ namespace Transport
         {
             char ch = e.KeyChar;
 
-            if (!char.IsLetter(ch) && ch == 8 && ch == 46)
+            if (!char.IsLetter(ch) && ch != 8 && ch != 46)
             {
                 e.Handled = true;
 

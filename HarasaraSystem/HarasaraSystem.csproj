@@ -11,8 +11,7 @@
     <AssemblyName>HarasaraSystem</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\Users\Viraj Malaka\Desktop\system\</PublishUrl>
+    <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -22,10 +21,10 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
-    <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -47,34 +46,15 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <ManifestCertificateThumbprint>8ABBDAEA7AA0B12A81DAD147BDAF68B8DE1F8F97</ManifestCertificateThumbprint>
-  </PropertyGroup>
-  <PropertyGroup>
-    <ManifestKeyFile>HarasaraSystem_TemporaryKey.pfx</ManifestKeyFile>
-  </PropertyGroup>
-  <PropertyGroup>
-    <GenerateManifests>true</GenerateManifests>
-  </PropertyGroup>
-  <PropertyGroup>
-    <SignManifests>true</SignManifests>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Bunifu_UI_v1.4">
       <HintPath>D:\SLIIT EDU\Year2 Semester 2\ITP\Bunifu_UI_v1.4.dll</HintPath>
     </Reference>
-    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
-    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
-    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
-    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
-    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
-    <Reference Include="System.Web" />
-    <Reference Include="System.Web.Services" />
     <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -84,10 +64,6 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="Tulpep.NotificationWindow, Version=1.1.25.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Tulpep.NotificationWindow.1.1.25\lib\net40\Tulpep.NotificationWindow.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Login.cs">
@@ -107,27 +83,8 @@
     <Compile Include="SubInterface\Administration\AdministrationSub.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SubInterface\Administration\AdministrationSub.Designer.cs">
+    <Compile Include="SubInterface\Administration\AdministrationSub.designer.cs">
       <DependentUpon>AdministrationSub.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SubInterface\Administration\DBconnect.cs" />
-    <Compile Include="SubInterface\Administration\Machines.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="SubInterface\Administration\Machines.Designer.cs">
-      <DependentUpon>Machines.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SubInterface\Administration\promo.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="SubInterface\Administration\promo.Designer.cs">
-      <DependentUpon>promo.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SubInterface\Administration\SystemAdmins.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="SubInterface\Administration\SystemAdmins.Designer.cs">
-      <DependentUpon>SystemAdmins.cs</DependentUpon>
     </Compile>
     <Compile Include="SubInterface\Employee\attendance.cs">
       <SubType>UserControl</SubType>
@@ -135,13 +92,6 @@
     <Compile Include="SubInterface\Employee\attendance.Designer.cs">
       <DependentUpon>attendance.cs</DependentUpon>
     </Compile>
-    <Compile Include="SubInterface\Employee\AttendanceSystem.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SubInterface\Employee\AttendanceSystem.Designer.cs">
-      <DependentUpon>AttendanceSystem.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SubInterface\Employee\DBAccess.cs" />
     <Compile Include="SubInterface\Employee\details.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -151,7 +101,7 @@
     <Compile Include="SubInterface\Employee\EmployeeSub.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SubInterface\Employee\EmployeeSub.Designer.cs">
+    <Compile Include="SubInterface\Employee\EmployeeSub.designer.cs">
       <DependentUpon>EmployeeSub.cs</DependentUpon>
     </Compile>
     <Compile Include="SubInterface\Employee\leave.cs">
@@ -166,11 +116,11 @@
     <Compile Include="SubInterface\Employee\leaverequest.Designer.cs">
       <DependentUpon>leaverequest.cs</DependentUpon>
     </Compile>
-    <Compile Include="SubInterface\Employee\leave_Details.cs">
-      <SubType>Form</SubType>
+    <Compile Include="SubInterface\Employee\notifications.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="SubInterface\Employee\leave_Details.Designer.cs">
-      <DependentUpon>leave_Details.cs</DependentUpon>
+    <Compile Include="SubInterface\Employee\notifications.Designer.cs">
+      <DependentUpon>notifications.cs</DependentUpon>
     </Compile>
     <Compile Include="SubInterface\Employee\payrolls.cs">
       <SubType>UserControl</SubType>
@@ -183,12 +133,6 @@
     </Compile>
     <Compile Include="SubInterface\Employee\search.Designer.cs">
       <DependentUpon>search.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SubInterface\Employee\SMS.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="SubInterface\Employee\SMS.Designer.cs">
-      <DependentUpon>SMS.cs</DependentUpon>
     </Compile>
     <Compile Include="SubInterface\Finance\AccountHistory.cs">
       <SubType>UserControl</SubType>
@@ -208,12 +152,6 @@
     <Compile Include="SubInterface\Finance\AccountsUC.Designer.cs">
       <DependentUpon>AccountsUC.cs</DependentUpon>
     </Compile>
-    <Compile Include="SubInterface\Finance\CrystalReport1.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>CrystalReport1.rpt</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
     <Compile Include="SubInterface\Finance\Database.cs" />
     <Compile Include="SubInterface\Finance\EmailUC.cs">
       <SubType>UserControl</SubType>
@@ -227,19 +165,12 @@
     <Compile Include="SubInterface\Finance\ExpenditureManagerUC.Designer.cs">
       <DependentUpon>ExpenditureManagerUC.cs</DependentUpon>
     </Compile>
-    <Compile Include="SubInterface\Finance\FinanceReportUC.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="SubInterface\Finance\FinanceReportUC.Designer.cs">
-      <DependentUpon>FinanceReportUC.cs</DependentUpon>
-    </Compile>
     <Compile Include="SubInterface\Finance\FinanceSub.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="SubInterface\Finance\FinanceSub.designer.cs">
       <DependentUpon>FinanceSub.cs</DependentUpon>
     </Compile>
-    <Compile Include="SubInterface\Finance\ViaNettSMS.cs" />
     <Compile Include="SubInterface\Inventory\AddItem.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -307,6 +238,10 @@
     <Compile Include="SubInterface\Inventory\inv_IssueStock.Designer.cs">
       <DependentUpon>inv_IssueStock.cs</DependentUpon>
     </Compile>
+    <Compile Include="SubInterface\Production\AddProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubInterface\Production\AddProduct.Designer.cs" />
     <Compile Include="SubInterface\Production\Cutting.cs" />
     <Compile Include="SubInterface\Production\DBAccess.cs" />
     <Compile Include="SubInterface\Production\Drilling.cs" />
@@ -327,12 +262,20 @@
     </Compile>
     <Compile Include="SubInterface\Production\Painting.cs" />
     <Compile Include="SubInterface\Production\prepareOrder.cs" />
+    <Compile Include="SubInterface\Production\Product.cs" />
     <Compile Include="SubInterface\Production\ProductionSub.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="SubInterface\Production\ProductionSub.Designer.cs">
       <DependentUpon>ProductionSub.cs</DependentUpon>
     </Compile>
+    <Compile Include="SubInterface\Production\ProductItem.cs" />
+    <Compile Include="SubInterface\Production\ProductItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubInterface\Production\ProductItems.Designer.cs" />
+    <Compile Include="SubInterface\Production\ProductService.cs" />
+    <Compile Include="SubInterface\Production\Progress.cs" />
     <Compile Include="SubInterface\Production\splitOrder.cs" />
     <Compile Include="SubInterface\Sales\Bill.cs">
       <SubType>Form</SubType>
@@ -431,7 +374,6 @@
     <Compile Include="SubInterface\Transport\ViaNettSMS1.cs" />
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>
@@ -448,20 +390,8 @@
     <EmbeddedResource Include="SubInterface\Administration\AdministrationSub.resx">
       <DependentUpon>AdministrationSub.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SubInterface\Administration\Machines.resx">
-      <DependentUpon>Machines.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SubInterface\Administration\promo.resx">
-      <DependentUpon>promo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SubInterface\Administration\SystemAdmins.resx">
-      <DependentUpon>SystemAdmins.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="SubInterface\Employee\attendance.resx">
       <DependentUpon>attendance.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SubInterface\Employee\AttendanceSystem.resx">
-      <DependentUpon>AttendanceSystem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SubInterface\Employee\details.resx">
       <DependentUpon>details.cs</DependentUpon>
@@ -475,17 +405,14 @@
     <EmbeddedResource Include="SubInterface\Employee\leaverequest.resx">
       <DependentUpon>leaverequest.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SubInterface\Employee\leave_Details.resx">
-      <DependentUpon>leave_Details.cs</DependentUpon>
+    <EmbeddedResource Include="SubInterface\Employee\notifications.resx">
+      <DependentUpon>notifications.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SubInterface\Employee\payrolls.resx">
       <DependentUpon>payrolls.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SubInterface\Employee\search.resx">
       <DependentUpon>search.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SubInterface\Employee\SMS.resx">
-      <DependentUpon>SMS.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SubInterface\Finance\AccountHistory.resx">
       <DependentUpon>AccountHistory.cs</DependentUpon>
@@ -496,18 +423,11 @@
     <EmbeddedResource Include="SubInterface\Finance\AccountsUC.resx">
       <DependentUpon>AccountsUC.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SubInterface\Finance\CrystalReport1.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>CrystalReport1.cs</LastGenOutput>
-    </EmbeddedResource>
     <EmbeddedResource Include="SubInterface\Finance\EmailUC.resx">
       <DependentUpon>EmailUC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SubInterface\Finance\ExpenditureManagerUC.resx">
       <DependentUpon>ExpenditureManagerUC.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SubInterface\Finance\FinanceReportUC.resx">
-      <DependentUpon>FinanceReportUC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SubInterface\Finance\FinanceSub.resx">
       <DependentUpon>FinanceSub.cs</DependentUpon>
@@ -545,6 +465,7 @@
     <EmbeddedResource Include="SubInterface\Inventory\inv_IssueStock.resx">
       <DependentUpon>inv_IssueStock.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="SubInterface\Production\AddProduct.resx" />
     <EmbeddedResource Include="SubInterface\Production\OrderProcessingUC.resx">
       <DependentUpon>OrderProcessingUC.cs</DependentUpon>
     </EmbeddedResource>
@@ -554,6 +475,7 @@
     <EmbeddedResource Include="SubInterface\Production\ProductionSub.resx">
       <DependentUpon>ProductionSub.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="SubInterface\Production\ProductItems.resx" />
     <EmbeddedResource Include="SubInterface\Sales\Bill.resx">
       <DependentUpon>Bill.cs</DependentUpon>
     </EmbeddedResource>
@@ -566,7 +488,6 @@
     <EmbeddedResource Include="SubInterface\Sales\PurchasingOrders.resx">
       <DependentUpon>PurchasingOrders.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SubInterface\Sales\SalesMainSub.resx" />
     <EmbeddedResource Include="SubInterface\Sales\SalesOrders.resx">
       <DependentUpon>SalesOrders.cs</DependentUpon>
     </EmbeddedResource>
@@ -601,9 +522,6 @@
       <DependentUpon>vehicle.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="ClassDiagram1.cd" />
-    <None Include="ClassDiagram2.cd" />
-    <None Include="HarasaraSystem_TemporaryKey.pfx" />
-    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -637,9 +555,7 @@
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
-  <ItemGroup>
-    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

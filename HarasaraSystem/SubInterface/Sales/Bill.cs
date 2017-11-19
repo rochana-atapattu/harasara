@@ -5,7 +5,6 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
@@ -52,7 +51,7 @@ namespace HarasaraSystem.SubInterface.Sales
             if (nu == 1)
             {
 
-                string query = "select * from products where orderID='" + OrID + "'";
+                string query = "select * from harasara.products where orderID='" + OrID + "'";
                 databaseAccess db1 = new databaseAccess();
                 db1.displayData(query, BillProducts);
 
@@ -60,11 +59,11 @@ namespace HarasaraSystem.SubInterface.Sales
             else
             {
 
-                string query2 = "select orderID,ItemNo,ItemDescription,Price,Quantity,TotalPrice from ordereditems where orderID='" + OrID + "' ";
-                databaseAccess d2 = new databaseAccess();
-                d2.displayData(query2, BillProducts);
+                string dquery = "select Date from purchaseorders where OrderId='"+OrID+"' ";
+                databaseAccess d2=new databaseAccess();
+                string ddate = d2.getString(dquery);
 
-
+                string query3 = "select ItemNo,ItemDescription,Price,Quantity,TotalPrice from purchaseorders where OrderId='"+OrID+"'";
                
                
             }
@@ -101,14 +100,14 @@ namespace HarasaraSystem.SubInterface.Sales
 
                 if(pType=="Cash")
                 {
-
-                    string query1 = "INSERT INTO purchasepayments(paymentID,SupplierID,Date,Type,OrderID,Price, AccountNumber) VALUES ('" + pID + "','" + label8.Text + "','" + DateTime.Now.Date.ToString("yyyy-MM-dd") + "','" + pType + "','" + label2.Text + "','" + Convert.ToDouble(label1.Text) + "','" + emailBill.Text + "')";
-                    d2.InsertData(query1);
+                    string query = "insert into purchasepayments values('"+pID+"','"+label8.Text+"','" + DateTime.Now.Date.ToString("yyyy-MM-dd") +",,'"+pType+"','"+label2.Text+"','"+label1.Text+"','"+emailBill.Text+"')";
+                    d2.InsertData(query);
 
                 }
                 else if( pType=="Credit")
                 {
-                    
+                    string query = "insert into purchasepayments values('" + pID + "','" + label8.Text + "','" + DateTime.Now.Date.ToString("yyyy-MM-dd") + ",,'" + pType + "','" + label2.Text + "','" + label1.Text + "','" + emailBill.Text + "')";
+                    d2.InsertData(query);
                 }
 
 
@@ -133,7 +132,8 @@ namespace HarasaraSystem.SubInterface.Sales
 
                     }
 
-                            
+                            string dlQuery = "Delete from harasara.slorders where orderID='" + label2.Text + "'";
+                            d1.deleterow(dlQuery);
                             CustomMsgBox.Show("Payment was successfull", "OK");
             }
            
@@ -147,7 +147,7 @@ namespace HarasaraSystem.SubInterface.Sales
 
         private void Bill_Load(object sender, EventArgs e)
         {
-          
+           // invoiceBill.Text = DateTime.Now.Year.ToString()+DateTime.Now.Month.ToString();
 
 
             

@@ -13,18 +13,21 @@ namespace Transport
 {
     public partial class report : Form
     {
-       
-        public report(string user)
+        public void SalesSub(string user)
+        {
+            InitializeComponent();
+            label7.Text = user;
+        }
+        public report()
         {
             InitializeComponent();
             timer1.Start();
-            label7.Text = user;
         }
 
         private void bunifuImageButton3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Main m1 = new Main(label7.Text);
+            Main m1 = new Main();
             m1.ShowDialog();
             this.Close();
         }
@@ -37,7 +40,7 @@ namespace Transport
         private void bunifuThinButton2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Main m1 = new Main("");
+            Main m1 = new Main();
             m1.ShowDialog();
             this.Close();
         }
@@ -45,7 +48,7 @@ namespace Transport
         private void bunifuThinButton2_Click_1(object sender, EventArgs e)
         {
             this.Hide();
-            Main m1 = new Main(label7.Text);
+            Main m1 = new Main();
             m1.ShowDialog();
             this.Close();
         }
@@ -74,39 +77,6 @@ namespace Transport
             lblTime.Text = DateTime.Now.ToString("HH:mm");
             lblSecond.Text = DateTime.Now.ToString("ss");
             lblDate.Text = DateTime.Now.ToString("MMM dd yyyy");
-        }
-
-        private void bunifuFlatButton2_Click(object sender, EventArgs e)
-        {
-            printDocument1.Print();
-        }
-
-        private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
-        {
-            Bitmap bm = new Bitmap(this.dataGridView1.Width, this.dataGridView1.Height);
-            dataGridView1.DrawToBitmap(bm, new Rectangle(0, 0, this.dataGridView1.Width, this.dataGridView1.Height));
-            e.Graphics.DrawImage(bm, 10, 10);
-        }
-
-        private void bunifuFlatButton1_Click(object sender, EventArgs e)
-        {
-
-            if ((string)comboBox1.SelectedItem == "Vehicle repair")
-            {
-                DataTable dt = new DataTable();
-                dbconnect db = new dbconnect();
-
-                dt = db.ReadValue("Select * From vehiclerepair where SubmittedDate between '" + dateTimePicker1.Text + "' and '" + dateTimePicker2.Text + "'");
-                dataGridView1.DataSource = dt;
-            }
-            else if ((string)comboBox1.SelectedItem == "Driver details")
-            {
-                DataTable dt = new DataTable();
-                dbconnect db = new dbconnect();
-
-                dt = db.ReadValue("Select * From driverdetails where DOB between '" + dateTimePicker1.Text + "' and '" + dateTimePicker2.Text + "'");
-                dataGridView1.DataSource = dt;
-            }  
         }
     }
 }

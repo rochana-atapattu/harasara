@@ -8,17 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
-using Tulpep.NotificationWindow;
 
 namespace Transport
 {
     public partial class Main : Form
     {
-        
-        public Main(string user)
+        public void SalesSub(string user)
         {
             InitializeComponent();
             label7.Text = user;
+        }
+        public Main()
+        {
+            InitializeComponent();
             timer1.Start();
         }
 
@@ -50,7 +52,7 @@ namespace Transport
         private void bunifuFlatButton2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            vehicle v1 = new vehicle(label7.Text);
+            vehicle v1 = new vehicle();
             v1.ShowDialog();
             this.Close();
         }
@@ -58,7 +60,7 @@ namespace Transport
         private void bunifuFlatButton4_Click(object sender, EventArgs e)
         {
             this.Hide();
-            report r1 = new report(label7.Text);
+            report r1 = new report();
             r1.ShowDialog();
             this.Close();
             
@@ -68,7 +70,7 @@ namespace Transport
         private void bunifuFlatButton1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            driver d1 = new driver(label7.Text);
+            driver d1 = new driver();
             d1.ShowDialog();
             this.Close();
 
@@ -77,20 +79,23 @@ namespace Transport
         private void bunifuFlatButton3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            route ro1 = new route(label7.Text);
+            route ro1 = new route();
             ro1.ShowDialog();
             this.Close();
         }
 
         private void bunifuThinButton2_Click(object sender, EventArgs e)
         {
-           
+            HarasaraSystem.MainMenu mm = new HarasaraSystem.MainMenu();
+            this.Hide();
+            mm.Show(); 
+
         }
 
         private void bunifuFlatButton1_Click_1(object sender, EventArgs e)
         {
             this.Hide();
-            vehicle ve1 = new vehicle(label7.Text);
+            vehicle ve1 = new vehicle();
             ve1.ShowDialog();
             this.Close();
         }
@@ -108,7 +113,7 @@ namespace Transport
         private void bunifuFlatButton1_Click_2(object sender, EventArgs e)
         {
             this.Hide();
-            driver d2 = new driver(label7.Text);
+            driver d2 = new driver();
             d2.ShowDialog();
             this.Close();
         }
@@ -116,7 +121,7 @@ namespace Transport
         private void bunifuFlatButton2_Click_1(object sender, EventArgs e)
         {
             this.Hide();
-            vehicle v1 = new vehicle(label7.Text);
+            vehicle v1 = new vehicle();
             v1.ShowDialog();
             this.Close();
         }
@@ -124,7 +129,7 @@ namespace Transport
         private void bunifuFlatButton5_Click(object sender, EventArgs e)
         {
             this.Hide();
-            SMS v1 = new SMS(label7.Text);
+            SMS v1 = new SMS();
             v1.ShowDialog();
             this.Close();
         }
@@ -136,19 +141,15 @@ namespace Transport
 
         private void bunifuThinButton3_Click(object sender, EventArgs e)
         {
-            this.Hide();
             HarasaraSystem.MainMenu mm = new HarasaraSystem.MainMenu();
-            mm.ShowDialog();
-            this.Close();
+            this.Hide();
+            mm.Show();
 
         }
 
         private void bunifuThinButton1_Click(object sender, EventArgs e)
         {
-            PopupNotifier popup = new PopupNotifier();
-            popup.TitleText = "Help";
-            popup.ContentText = "You can access to each of these subsections.\n To access please press the interface buttons";
-            popup.Popup();
+
         }
 
         private void timer1_Tick(object sender, EventArgs e)

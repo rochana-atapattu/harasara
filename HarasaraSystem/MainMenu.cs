@@ -27,20 +27,16 @@ namespace HarasaraSystem
         private void Transport_Click(object sender, EventArgs e)
         {
            /* Login m1 = new Login("Transport");
-            m1.Show();**/
-
-            this.Hide();
-            Login ins = new Login("Transport");
+            m1.Show();
+            this.Hide();*/
+            Transport.Main ins = new Transport.Main();
             ins.Show();
-
             this.Hide();
         }
 
         private void Leave_Click(object sender, EventArgs e)
         {
-            SubInterface.Employee.leaverequest load = new SubInterface.Employee.leaverequest();
-            load.Show();
-            this.Hide();
+
         }
 
         private void bunifuFlatButton1_Click(object sender, EventArgs e)
@@ -52,16 +48,21 @@ namespace HarasaraSystem
 
         private void Inventory_Click(object sender, EventArgs e)
         {
-            Login m1 = new Login("Inventory");
+            /*Login m1 = new Login("Inventory");
             m1.Show();
+            this.Hide();*/
+            SubInterface.Inventory.InventorySub ins = new SubInterface.Inventory.InventorySub("");
+            ins.Show();
             this.Hide();
         }
 
         private void Finance_Click(object sender, EventArgs e)
         {
-            Login m1 = new Login("Finance");
+           Login m1 = new Login("Finance");
             m1.Show();
             this.Hide();
+            
+            
         }
 
         private void production_Click(object sender, EventArgs e)
@@ -76,30 +77,6 @@ namespace HarasaraSystem
             Login m1 = new Login("Adminstration");
             m1.Show();
             this.Hide();
-        }
-
-
-        private void bunifuGradientPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void bunifuImageButton2_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;
-        }
-
-        private void bunifuImageButton1_Click(object sender, EventArgs e)
-        {
-            Environment.Exit(0);
-        }
-        private void bunifuFlatButton3_Click(object sender, EventArgs e)
-        {
-            SubInterface.Employee.AttendanceSystem load = new SubInterface.Employee.AttendanceSystem();
-            load.Show();
-            this.Hide();
-      
-
         }
        
 

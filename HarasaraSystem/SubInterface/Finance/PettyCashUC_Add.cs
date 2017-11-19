@@ -8,8 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
-using System.Diagnostics;
-using BMS_harasara;
 
 namespace HarasaraSystem.SubInterface.Finance
 {
@@ -204,45 +202,9 @@ namespace HarasaraSystem.SubInterface.Finance
             PettyCashUC.Instance_pc.BringToFront();
             PettyCashUC.Instance_pc.Visible = true;
         }
-        public void SendSMS()
-        {
-            using (System.Net.WebClient client = new System.Net.WebClient())
-            {
-                //Set parameters
-                string msgsender = "94772428281";
-                string destinationaddr = "94772428281";
-                string username = "kavindu.amarawansha@gmail.com";
-                string password = "2kszl";
-                string message = "Someone trying to edit petty cash";
 
-                // Create ViaNettSMS object with username and password
-                ViaNettSMS s = new ViaNettSMS(username, password);
-                // Declare Result object returned by the SendSMS function
-                ViaNettSMS.Result result;
-                try
-                {
-                    // Send SMS through HTTP API
-                    result = s.sendSMS(msgsender, destinationaddr, message);
-                    // Show Send SMS response
-                    if (result.Success)
-                    {
-                        Debug.WriteLine("Message successfully sent");
-                    }
-                    else
-                    {
-                        Debug.WriteLine("Received error: " + result.ErrorCode + " " + result.ErrorMessage);
-                    }
-                }
-                catch (System.Net.WebException ex)
-                {
-                    //Catch error occurred while connecting to server.
-                    Debug.WriteLine(ex.Message);
-                }
-            }
-        }
         private void bunifuFlatButton1_Click(object sender, EventArgs e)
         {
-            //SendSMS();
             if (!panel1.Controls.Contains(PettyCashUC_Add_Edit._Instance_pc_add))
             {
                 panel1.Controls.Add(PettyCashUC_Add_Edit._Instance_pc_add);

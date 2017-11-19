@@ -55,6 +55,8 @@
             this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuThinButton1 = new WindowsFormsControlLibrary1.BunifuThinButton();
             this.bunifuCustomLabel10 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuThinButton7 = new WindowsFormsControlLibrary1.BunifuThinButton();
+            this.bunifuTextbox1 = new Bunifu.Framework.UI.BunifuTextbox();
             this.bunifuImageButton2 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuImageButton3 = new Bunifu.Framework.UI.BunifuImageButton();
@@ -365,6 +367,37 @@
             this.bunifuCustomLabel10.TabIndex = 17;
             this.bunifuCustomLabel10.Text = "August 2017";
             // 
+            // bunifuThinButton7
+            // 
+            this.bunifuThinButton7.BackColor = System.Drawing.Color.Silver;
+            this.bunifuThinButton7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton7.BackgroundImage")));
+            this.bunifuThinButton7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuThinButton7.ButtonText = "View Chart";
+            this.bunifuThinButton7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton7.ForeColor = System.Drawing.Color.SeaGreen;
+            this.bunifuThinButton7.ForeColorHoverState = System.Drawing.Color.White;
+            this.bunifuThinButton7.Iconimage = null;
+            this.bunifuThinButton7.IconVisible = true;
+            this.bunifuThinButton7.IconZoom = 90D;
+            this.bunifuThinButton7.ImageIconOverlay = false;
+            this.bunifuThinButton7.Location = new System.Drawing.Point(549, 360);
+            this.bunifuThinButton7.Name = "bunifuThinButton7";
+            this.bunifuThinButton7.Size = new System.Drawing.Size(158, 36);
+            this.bunifuThinButton7.TabIndex = 50;
+            // 
+            // bunifuTextbox1
+            // 
+            this.bunifuTextbox1.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.bunifuTextbox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuTextbox1.BackgroundImage")));
+            this.bunifuTextbox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuTextbox1.ForeColor = System.Drawing.Color.SeaShell;
+            this.bunifuTextbox1.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuTextbox1.Icon")));
+            this.bunifuTextbox1.Location = new System.Drawing.Point(273, 1);
+            this.bunifuTextbox1.Name = "bunifuTextbox1";
+            this.bunifuTextbox1.Size = new System.Drawing.Size(242, 34);
+            this.bunifuTextbox1.TabIndex = 43;
+            this.bunifuTextbox1.text = "Search here";
+            // 
             // bunifuImageButton2
             // 
             this.bunifuImageButton2.BackColor = System.Drawing.Color.MediumSeaGreen;
@@ -625,6 +658,8 @@
             this.Controls.Add(this.chart1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel5);
+            this.Controls.Add(this.bunifuThinButton7);
+            this.Controls.Add(this.bunifuTextbox1);
             this.Controls.Add(this.bunifuImageButton2);
             this.Controls.Add(this.bunifuImageButton1);
             this.Controls.Add(this.bunifuImageButton3);
@@ -685,6 +720,8 @@
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel2;
         private WindowsFormsControlLibrary1.BunifuThinButton bunifuThinButton1;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel10;
+        private WindowsFormsControlLibrary1.BunifuThinButton bunifuThinButton7;
+        private Bunifu.Framework.UI.BunifuTextbox bunifuTextbox1;
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton2;
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton1;
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton3;

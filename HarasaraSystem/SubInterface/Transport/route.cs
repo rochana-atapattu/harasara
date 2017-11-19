@@ -14,12 +14,15 @@ namespace Transport
 {
     public partial class route : Form
     {
-       
-        public route(string user)
+        public void SalesSub(string user)
+        {
+            InitializeComponent();
+            label7.Text = user;
+        }
+        public route()
         {
             InitializeComponent();
             timer1.Start();
-            label7.Text = user;
         }
 
         MySqlConnection connnection = new MySqlConnection("server=localhost;user id=root;database=harasara");
@@ -32,7 +35,7 @@ namespace Transport
         private void bunifuImageButton3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Main m1 = new Main("");
+            Main m1 = new Main();
             m1.ShowDialog();
             this.Close();
         }
@@ -46,7 +49,7 @@ namespace Transport
         private void bunifuThinButton2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Main m1 = new Main("");
+            Main m1 = new Main();
             m1.ShowDialog();
             this.Close();
         }
@@ -54,7 +57,7 @@ namespace Transport
         private void bunifuImageButton3_Click_1(object sender, EventArgs e)
         {
             this.Hide();
-            orderRoute or1 = new orderRoute(label7.Text);
+            orderRoute or1 = new orderRoute();
             or1.ShowDialog();
             this.Close();
         }
@@ -62,7 +65,7 @@ namespace Transport
         private void bunifuThinButton2_Click_1(object sender, EventArgs e)
         {
             this.Hide();
-            Main m1 = new Main(label7.Text);
+            Main m1 = new Main();
             m1.ShowDialog();
             this.Close();
         }
@@ -108,7 +111,7 @@ namespace Transport
 
                 MySqlConnection con = new MySqlConnection("server=localhost;user id=root;database=harasara");
 
-                String insert = "INSERT INTO route(RouteName,RouteDistance,RouteDescription) VALUES('" + this.bunifuCustomTextbox4.Text.ToString() + "','" + Convert.ToInt32(this.bunifuCustomTextbox3.Text.ToString()) + "','" + this.bunifuCustomTextbox2.Text.ToString() + "')";
+                String insert = "INSERT INTO route(RouteName,RouteDistance,RouteDescription) VALUES('" + this.bunifuCustomTextbox4.Text.ToString() + "','" + this.bunifuCustomTextbox3.Text.ToString() + "','" + this.bunifuCustomTextbox2.Text.ToString() + "')";
                 MySqlCommand command = new MySqlCommand(insert, con);
 
                 MySqlDataReader myreader;
@@ -162,7 +165,7 @@ namespace Transport
             if (dataGridView1.Rows.Count > -1)
             {
                 bunifuCustomTextbox1.Text = dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
-                bunifuCustomTextbox4.Text = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
+                bunifuCustomTextbox4.Text = dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
                 bunifuCustomTextbox3.Text = dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
                 bunifuCustomTextbox2.Text = dataGridView1.Rows[e.RowIndex].Cells[3].Value.ToString();
 
@@ -206,60 +209,36 @@ namespace Transport
 
         private void bunifuThinButton10_Click(object sender, EventArgs e)
         {
-            if (String.IsNullOrEmpty(bunifuCustomTextbox3.Text))
+            //update route
+            MySqlConnection con = new MySqlConnection("server=localhost;user id=root;database=harasara");
+
+            try
             {
-                String error = "Enter Distance.";
-                label3.Text = error.ToString();
+                //update table
 
-                //MessageBox.Show("Enter Distance.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
-            else if (String.IsNullOrEmpty(bunifuCustomTextbox4.Text))
-            {
-                String error = "Enter Route Name.";
-                label4.Text = error.ToString();
-                //MessageBox.Show("Enter Route Name.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
-            else if (String.IsNullOrEmpty(bunifuCustomTextbox2.Text))
-            {
-                String error = "Enter Route Description";
-                label5.Text = error.ToString();
+                String update = "UPDATE route SET RouteName = '" + this.bunifuCustomTextbox4.Text.ToString() + "' , RouteDistance = '" + this.bunifuCustomTextbox3.Text.ToString() + "', RouteDescription = '" + this.bunifuCustomTextbox2.Text.ToString()+ "')";
+                MySqlCommand command = new MySqlCommand(update, connnection);
 
-                //MessageBox.Show("Enter Route Description", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
-
-            else
-            {
-
-                //update route
-                MySqlConnection con = new MySqlConnection("server=localhost;user id=root;database=harasara");
-
-                try
-                {
-                    //update table
-
-                    String update = " UPDATE route SET RouteName = '" + this.bunifuCustomTextbox4.Text.ToString() + "', RouteDistance = '" + Convert.ToInt32(this.bunifuCustomTextbox3.Text.ToString()) + "', RouteDescription = '" + this.bunifuCustomTextbox2.Text.ToString() + "' WHERE RouteID = '"+this.bunifuCustomTextbox1.Text+"'";
-                    MySqlCommand command = new MySqlCommand(update, connnection);
-
-                    MySqlCommand cmnd = new MySqlCommand(update, con);
-                    MySqlDataReader myreader;
-                    con.Open();
-                    myreader = cmnd.ExecuteReader();
-                    MessageBox.Show("Updated Successfully", "Success", MessageBoxButtons.OK);
+                MySqlCommand cmnd = new MySqlCommand(update, con);
+                MySqlDataReader myreader;
+                con.Open();
+                myreader = cmnd.ExecuteReader();
+                MessageBox.Show("Updated Successfully", "Success", MessageBoxButtons.OK);
 
 
-
-                }
-
-                catch (Exception ex)
-                {
-
-                    MessageBox.Show(ex.Message, "Error");
-
-
-                }
 
             }
+
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message, "Error");
+
+
+            }
+        
         }
+
         private void bunifuThinButton7_Click(object sender, EventArgs e)
         {
             
@@ -323,21 +302,6 @@ namespace Transport
             lblTime.Text = DateTime.Now.ToString("HH:mm");
             lblSecond.Text = DateTime.Now.ToString("ss");
             lblDate.Text = DateTime.Now.ToString("MMM dd yyyy");
-        }
-
-        private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
-        {
-
-        }
-
-        private void bunifuThinButton5_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
         }
     }
 }

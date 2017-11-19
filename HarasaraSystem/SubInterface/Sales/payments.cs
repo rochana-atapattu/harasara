@@ -45,9 +45,9 @@ namespace HarasaraSystem.SubInterface.Sales
             string query3 = "select * from supplier";
             string query4 = "select * from purchasepayments";
             d1.displayData(query1, dataGridView1);
-            d1.displayData(query4, dataGridView3);
+            d1.displayData(query4, dataGridView2);
             d1.ComboBoxLoad("customerName", comboBox1, query2);
-            d1.ComboBoxLoad("supplierName", comboBox9, query3);
+            d1.ComboBoxLoad("supplierName", comboBox4, query3);
 
             
         }
@@ -68,17 +68,17 @@ namespace HarasaraSystem.SubInterface.Sales
            
         }
 
-        private void comboBox9_TextChanged(object sender, EventArgs e)
+        private void comboBox4_TextChanged(object sender, EventArgs e)
         {
             databaseAccess d1=new databaseAccess();
             
-            string query = "select contactNumber from supplier where supplierName='"+comboBox9.Text+"'";
-            textBox3.Text = d1.getString(query);
-            string query2 = "select SupID  from supplier where supplierName='"+comboBox9.Text+"'";
+            string query = "select contactNumber from supplier where supplierName='"+comboBox4.Text+"'";
+            textBox4.Text = d1.getString(query);
+            string query2 = "select SupID  from supplier where supplierName='"+comboBox4.Text+"'";
 
             string supID = d1.getString(query2);
             string query3 = "select * from  purchasepayments where SupplierID='"+supID+"'";
-            d1.displayData(query3, dataGridView3);
+            d1.displayData(query3, dataGridView2);
         }
 
         

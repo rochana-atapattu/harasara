@@ -13,7 +13,7 @@ namespace HarasaraSystem.SubInterface.Employee
 {
     public partial class EmployeeSub : Form
     {
-        public EmployeeSub(String pt)
+        public EmployeeSub( string pt)
         {
             InitializeComponent();
             label4.Text = pt;
@@ -26,7 +26,7 @@ namespace HarasaraSystem.SubInterface.Employee
 
         private void bunifuImageButton2_Click(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Minimized;
+            
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -96,7 +96,7 @@ namespace HarasaraSystem.SubInterface.Employee
 
         }
 
-        /*private void bunifuFlatButton5_Click(object sender, EventArgs e)
+        private void bunifuFlatButton5_Click(object sender, EventArgs e)
         {
             if (!panel3.Controls.Contains(notifications.Instance))
             {
@@ -109,7 +109,7 @@ namespace HarasaraSystem.SubInterface.Employee
                 notifications.Instance.BringToFront(); 
 
 
-        }*/
+        }
 
         private void bunifuFlatButton6_Click(object sender, EventArgs e)
         {
@@ -129,35 +129,5 @@ namespace HarasaraSystem.SubInterface.Employee
         {
 
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            MainMenu reload = new MainMenu();
-            reload.Show();
-            Visible=false;
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            MainMenu reload = new MainMenu();
-            reload.Show();
-            Visible = false;
-        }
-
-        private void bunifuFlatButton5_Click(object sender, EventArgs e)
-        {
-
-            if (!panel3.Controls.Contains(SMS.Instance))
-            {
-                panel3.Controls.Add(SMS.Instance);
-                SMS.Instance.Dock = DockStyle.Fill;
-                SMS.Instance.BringToFront();
-            }
-
-            else
-                SMS.Instance.BringToFront(); 
-        }
-
-      
     }
 }

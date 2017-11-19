@@ -1,25 +1,30 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Drawing;
 using System.Data;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Web;
-
+using MySql.Data.Common;
+using System.Net;
+using System.IO;
+using System.Diagnostics;
 
 namespace Transport
 {
     public partial class SMS : Form
     {
-       
-        public SMS(string user)
+        public void SalesSub(string user)
+        {
+            InitializeComponent();
+            label7.Text = user;
+        }
+        public SMS()
         {
             InitializeComponent();
             timer1.Start();
-            label7.Text = user;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -96,34 +101,44 @@ namespace Transport
 
       private void bunifuImageButton3_Click(object sender, EventArgs e)
         {
-            using (System.Net.WebClient client = new System.Net.WebClient())
-            {
-                try
-                {
-                    string url = "http://smsc.vianett.no/v3/send.ashx?" +
-                                 "src=" + textBox1.Text + "&" +
-                                 "dst=" + textBox1.Text + "&" +
-                                 "msg=" + System.Web.HttpUtility.UrlEncode(bunifuCustomTextbox2.Text, System.Text.Encoding.GetEncoding("ISO-8859-1")) + "&" +
-                                  "username=" + System.Web.HttpUtility.UrlEncode("lithirafiverr@gmail.com") + "&" +
-                                  "password=" + System.Web.HttpUtility.UrlEncode("p2dqo");
-                    string result = client.DownloadString(url);
-                    if (result.Contains("Ok"))
-                        MessageBox.Show("Message send failure.", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    else
-                        MessageBox.Show("Your message has been succcesfully sent.", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
+            //Set parameters
+           string username = "asviganegoda@gmail.com";
+            string password = "qda5";
+            string msgsender = textBox1.Text.ToString();
+            string destinationaddr = textBox1.Text.ToString();
+            
+           string message = bunifuCustomTextbox2.Text.ToString();
 
-                catch (Exception ex)
+            // Create ViaNettSMS object with username and password
+            ViaNettSMS s = new ViaNettSMS(username, password);
+           //  Declare Result object returned by the SendSMS function
+            ViaNettSMS.Result result;
+            /*try
+            {
+                //Send SMS through HTTP API
+                result = s.sendSMS(msgsender, destinationaddr, message);
+                 //Show Send SMS response
+                if (result.Success)
                 {
-                    MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    Debug.WriteLine("Message successfully sent");
+                }
+                else
+                {
+                    Debug.WriteLine("Received error: " + result.ErrorCode + " " + result.ErrorMessage);
                 }
             }
+            catch (System.Net.WebException ex)
+            {
+                //Catch error occurred while connecting to server.
+                Debug.WriteLine(ex.Message);
+            }
+             */
         }
             
         private void bunifuThinButton8_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Main m1 = new Main(label7.Text);
+            Main m1 = new Main();
             m1.ShowDialog();
             this.Close();
 
@@ -146,25 +161,6 @@ namespace Transport
             lblTime.Text = DateTime.Now.ToString("HH:mm");
             lblSecond.Text = DateTime.Now.ToString("ss");
             lblDate.Text = DateTime.Now.ToString("MMM dd yyyy");
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                DataTable dt = new DataTable();
-                dbconnect db = new dbconnect();
-
-
-                dt = db.ReadValue("Select customerID,CustomerName,contactNumber From customer");
-                dataGridView1.DataSource = dt;
-            }
-
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error");
-
-            }
         }
 
         

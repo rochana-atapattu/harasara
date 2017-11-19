@@ -13,12 +13,15 @@ namespace Transport
 {
     public partial class orderRoute : Form
     {
-        
-        public orderRoute(string user)
+        public void SalesSub(string user)
+        {
+            InitializeComponent();
+            label7.Text = user;
+        }
+        public orderRoute()
         {
             InitializeComponent();
             timer1.Start();
-            label7.Text = user;
         }
 
         MySqlConnection connnection = new MySqlConnection("server=localhost;user id=root;database=harasara");
@@ -36,7 +39,7 @@ namespace Transport
         private void bunifuThinButton2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            route r1 = new route(label7.Text);
+            route r1 = new route();
             r1.ShowDialog();
             this.Close();
           
@@ -175,13 +178,6 @@ namespace Transport
             lblTime.Text = DateTime.Now.ToString("HH:mm");
             lblSecond.Text = DateTime.Now.ToString("ss");
             lblDate.Text = DateTime.Now.ToString("MMM dd yyyy");
-        }
-
-        private void bunifuThinButton3_Click(object sender, EventArgs e)
-        {
-            HarasaraSystem.MainMenu mm = new HarasaraSystem.MainMenu();
-            this.Hide();
-            mm.Show();
         }
 
     
