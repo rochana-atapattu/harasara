@@ -76,8 +76,17 @@ namespace HarasaraSystem.SubInterface.Production
 
         private void bunifuFlatButton3_Click(object sender, EventArgs e)
         {
-            AddProduct ap = new AddProduct();
-            ap.Show();
+            AddProduct myForm = new AddProduct();
+            myForm.TopLevel = false;
+            myForm.AutoScroll = true;
+            this.panel3.Controls.Add(myForm);
+            myForm.Show();
+            
+            
+            
+            
+
+            
         }
     }
 }

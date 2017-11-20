@@ -48,6 +48,8 @@
             this.txtPName = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.txtPId = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
+            this.bunifuTileButton1 = new Bunifu.Framework.UI.BunifuTileButton();
+            this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,21 +61,24 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Location = new System.Drawing.Point(3, -6);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(828, 43);
+            this.panel1.Size = new System.Drawing.Size(1080, 52);
             this.panel1.TabIndex = 1;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.panel2.Controls.Add(this.bunifuTileButton1);
             this.panel2.Location = new System.Drawing.Point(0, 43);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(143, 317);
+            this.panel2.Size = new System.Drawing.Size(143, 571);
             this.panel2.TabIndex = 2;
             // 
             // panel3
             // 
+            this.panel3.BackgroundImage = global::HarasaraSystem.Properties.Resources.bgsub1;
             this.panel3.Controls.Add(this.btnAddProduct);
             this.panel3.Controls.Add(this.btnAddItem);
             this.panel3.Controls.Add(this.bunifuCustomLabel6);
@@ -90,7 +95,7 @@
             this.panel3.Controls.Add(this.txtPId);
             this.panel3.Location = new System.Drawing.Point(143, 43);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(685, 317);
+            this.panel3.Size = new System.Drawing.Size(954, 586);
             this.panel3.TabIndex = 3;
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
@@ -109,7 +114,7 @@
             this.btnAddProduct.Iconimage_Selected = null;
             this.btnAddProduct.IconZoom = 90D;
             this.btnAddProduct.IsTab = false;
-            this.btnAddProduct.Location = new System.Drawing.Point(422, 187);
+            this.btnAddProduct.Location = new System.Drawing.Point(46, 350);
             this.btnAddProduct.Name = "btnAddProduct";
             this.btnAddProduct.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
             this.btnAddProduct.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
@@ -136,7 +141,7 @@
             this.btnAddItem.Iconimage_Selected = null;
             this.btnAddItem.IconZoom = 90D;
             this.btnAddItem.IsTab = false;
-            this.btnAddItem.Location = new System.Drawing.Point(422, 245);
+            this.btnAddItem.Location = new System.Drawing.Point(46, 448);
             this.btnAddItem.Name = "btnAddItem";
             this.btnAddItem.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
             this.btnAddItem.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
@@ -250,18 +255,39 @@
             this.txtPId.Size = new System.Drawing.Size(100, 20);
             this.txtPId.TabIndex = 17;
             // 
+            // bunifuTileButton1
+            // 
+            this.bunifuTileButton1.BackColor = System.Drawing.Color.SeaGreen;
+            this.bunifuTileButton1.color = System.Drawing.Color.SeaGreen;
+            this.bunifuTileButton1.colorActive = System.Drawing.Color.MediumSeaGreen;
+            this.bunifuTileButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuTileButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
+            this.bunifuTileButton1.ForeColor = System.Drawing.Color.White;
+            this.bunifuTileButton1.Image = ((System.Drawing.Image)(resources.GetObject("bunifuTileButton1.Image")));
+            this.bunifuTileButton1.ImagePosition = 20;
+            this.bunifuTileButton1.ImageZoom = 50;
+            this.bunifuTileButton1.LabelPosition = 41;
+            this.bunifuTileButton1.LabelText = "Tile 1";
+            this.bunifuTileButton1.Location = new System.Drawing.Point(15, 187);
+            this.bunifuTileButton1.Margin = new System.Windows.Forms.Padding(6);
+            this.bunifuTileButton1.Name = "bunifuTileButton1";
+            this.bunifuTileButton1.Size = new System.Drawing.Size(1082, 616);
+            this.bunifuTileButton1.TabIndex = 0;
+            this.bunifuTileButton1.Click += new System.EventHandler(this.bunifuTileButton1_Click);
+            // 
             // AddProduct
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.ClientSize = new System.Drawing.Size(828, 361);
+            this.ClientSize = new System.Drawing.Size(1082, 616);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AddProduct";
             this.Text = "AddProduct";
+            this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.ResumeLayout(false);
@@ -288,5 +314,6 @@
         private WindowsFormsControlLibrary1.BunifuCustomTextbox txtPName;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel1;
         private WindowsFormsControlLibrary1.BunifuCustomTextbox txtPId;
+        private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton1;
     }
 }

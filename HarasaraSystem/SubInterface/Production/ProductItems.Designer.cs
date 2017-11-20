@@ -121,7 +121,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(557, 365);
+            this.ClientSize = new System.Drawing.Size(954, 586);
             this.Controls.Add(this.cmbItemName);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.txtqty);
@@ -131,6 +131,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtPid);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximizeBox = false;
             this.Name = "ProductItems";
             this.Text = "ProductItems";
             this.Load += new System.EventHandler(this.ProductItems_Load);

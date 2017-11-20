@@ -19,7 +19,11 @@ namespace HarasaraSystem.SubInterface.Production
         {
             InitializeComponent();
         }
-        
+
+
+        private void Form1_MouseDown(object sender, System.Windows.Forms.MouseEventArgs e)
+        {
+        }
 
         
         private void btnAddProduct_Click(object sender, EventArgs e)
@@ -46,8 +50,13 @@ namespace HarasaraSystem.SubInterface.Production
             //    HarasaraSystem.SubInterface.Production.ProductItems.Instance.BringToFront();
             //}
             ProductItem.ItemId = txtPId.Text;
-            ProductItems pi = new ProductItems();
-            pi.ShowDialog();
+            ProductionSub ps = new ProductionSub("");
+            ProductItems myForm = new ProductItems();
+            
+            myForm.TopLevel = false;
+            myForm.AutoScroll = true;
+            this.panel3.Controls.Add(myForm);
+            myForm.Show();
             
           }
 
@@ -64,6 +73,17 @@ namespace HarasaraSystem.SubInterface.Production
         }
 
         private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void bunifuTileButton1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
