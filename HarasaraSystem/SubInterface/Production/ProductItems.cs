@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 using System.Data;
 using System.Windows.Forms;
+using System.Collections;
 
 namespace HarasaraSystem.SubInterface.Production
 {
@@ -17,19 +18,21 @@ namespace HarasaraSystem.SubInterface.Production
         public ProductItems()
         {
             InitializeComponent();
-            fillcombo();
+          // fillcombo();
             
         }
 
         void fillcombo()
         {
-            
-            try {
-                String query = "Select * from inventory";
-                db.Open();
-                MySqlCommand cmd = new MySqlCommand(query);
-                MySqlDataReader myR;
 
+            String query = "Select * from inventory";
+            string connectionString = "server=localhost;user id=root;database=harasara2";
+            MySqlConnection con = new MySqlConnection(connectionString);
+            MySqlCommand cmd = new MySqlCommand(query, con);
+            MySqlDataReader myR;
+            try
+            {
+                con.Open();
                 myR = cmd.ExecuteReader();
 
                 while (myR.Read())
@@ -38,10 +41,39 @@ namespace HarasaraSystem.SubInterface.Production
                     cmbItemName.Items.Add(name);
                 }
             }
-            catch { }
-            
+            catch (Exception ex)
+            {
 
+            }
         }
+
+        void elsefillcombo(String searchContext)
+        {
+
+            String query = "Select * from inventory where name like '%" + searchContext + "%'";
+            string connectionString = "server=localhost;user id=root;database=harasara2";
+            MySqlConnection con = new MySqlConnection(connectionString);
+            MySqlCommand cmd = new MySqlCommand(query, con);
+            MySqlDataReader myR;
+            try
+            {
+                con.Open();
+                myR = cmd.ExecuteReader();
+
+                while (myR.Read())
+                {
+                    string name = myR.GetString("name");
+                    cmbItemName.Items.Add(name);
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+            }
+        }
+
+
         String pid { get; set; }
        
         public ProductItems(String ppid)
@@ -51,69 +83,70 @@ namespace HarasaraSystem.SubInterface.Production
 
         private void ProductItems_Load(object sender, EventArgs e)
         {
-            txtPid.Text = AddProduct.ppid;
-
-            try
-            {
-                gvUser.AutoGenerateColumns = false;
-                string sql = "SELECT item_id,name FROM inventory";
-                DataTable dt = db.Select(sql);
-                gvUser.DataSource = dt;
-            }
-            catch (Exception)
-            {
-
-                throw;
-            }
+            txtPid.Text = ProductItem.ItemId;
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             
-            ProductService ps=new ProductService();
-           ps.SelectProduct(txtItemName.Text);
-            ProductItem pi = new ProductItem();
-            txtItemId.Text = ProductItem.ItemId;
+          
         }
 
-        private void gvUser_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            try
-            {
-                if (e.ColumnIndex == 3)
-                {
-                    string selectedUserId = gvUser.Rows[e.RowIndex].Cells["ID"].Value.ToString();
-                    ProductItem prod = new ProductItem();
-                    //prod.ItemId 
-                    //frmUsr.Show();
-                }
-               
-            }
-            catch (Exception)
-            {
+       
 
-                throw;
-            }
-        }
+       
 
         private void cmbItemName_TextChanged(object sender, EventArgs e)
         {
             
-                        //String query = "SELECT name FROM inventory ";
-                        //DataTable dt = new DataTable();
-                        //dt = db.Select(query);
-                        //using (String command = new MySqlCommand(query, connection))
-                        //{
-                        //    using (var reader = command.ExecuteReader())
-                        //    {
-                        //        //Iterate through the rows and add it to the combobox's items
-                        //        while (reader.Read())
-                        //        {
-                        //            CustomerIdComboBox.Items.Add(reader.GetString("Id"));    
-                        //        }
-                        //    }    
-                        //}
-         }
+            if (cmbItemName != null)
+            {
+
+               
+                DataTable dt = new DataTable();
+                string qry = "Select * from inventory where name like '%" + cmbItemName.Text + "%'";
+                dt = db.Select(qry);
+                for (int i = 0; i < dt.Rows.Count; i++)
+                {
+                    cmbItemName.Items.Add(dt.Rows[i]["name"]);
+                }
+                
+            }
+            else
+            {
+                fillcombo();
+
+            }
+
+            ProductService ps = new ProductService();
+            ps.SelectProduct(cmbItemName.Text);
+            txtItemId.Text = ProductItem.ItemId;
+
+            
+        }
+
+        private void cmbItemName_SelectedIndexChanged(object sender, System.EventArgs e)
+        {
+
+        }
+
+        private void btnAdd_Click(object sender, System.EventArgs e)
+        {
+            ProductItem pi = new ProductItem();
+            pi.Qty = txtqty.Text;
+            pi.ProductNo = txtPid.Text;
+            pi.ItemName = cmbItemName.Text;
+            String sql = "INSERT INTO product_items(ProductItemId,ProductNo,ItemName,Qty) VALUES ('"+ProductItem.ItemId+"','"+pi.ProductNo+"','"+pi.ItemName+"','"+pi.Qty+"')";
+            db.Insert(sql);
+            txtItemId.Text = "";
+            txtqty.Text = "";
+            cmbItemName.Text = "";
+        }
+
+        private void txtPid_TextChanged(object sender, System.EventArgs e)
+        {
+
+        }
 
         }
     }

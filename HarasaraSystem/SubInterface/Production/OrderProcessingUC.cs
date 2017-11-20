@@ -42,6 +42,7 @@ namespace HarasaraSystem.SubInterface.Production
         DBAccess db = new DBAccess();
         DataTable dt = new DataTable();
         prepareOrder pr = new prepareOrder();
+        
         Manufacturing man;
 
         private void OrderProcessingUC_Load(object sender, EventArgs e)
@@ -224,7 +225,7 @@ namespace HarasaraSystem.SubInterface.Production
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            pr.checkAvailability();   
+            pr.checkAvailability();
         }
     }
 }

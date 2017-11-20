@@ -68,8 +68,7 @@ namespace HarasaraSystem.SubInterface.Production
             String oid = dataGridView1.CurrentRow.Cells[3].Value.ToString();
 
 
-            
-            pre.checkAvailability();
+            prepareOrder pr = new prepareOrder();
 
            
         }

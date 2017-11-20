@@ -33,17 +33,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.txtItemName = new System.Windows.Forms.TextBox();
             this.txtItemId = new System.Windows.Forms.TextBox();
             this.txtqty = new System.Windows.Forms.TextBox();
             this.btnAdd = new System.Windows.Forms.Button();
-            this.gvUser = new System.Windows.Forms.DataGridView();
-            this.item_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Qty = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Add = new System.Windows.Forms.DataGridViewButtonColumn();
             this.cmbItemName = new System.Windows.Forms.ComboBox();
-            ((System.ComponentModel.ISupportInitialize)(this.gvUser)).BeginInit();
             this.SuspendLayout();
             // 
             // txtPid
@@ -52,6 +45,7 @@
             this.txtPid.Name = "txtPid";
             this.txtPid.Size = new System.Drawing.Size(100, 20);
             this.txtPid.TabIndex = 0;
+            this.txtPid.TextChanged += new System.EventHandler(this.txtPid_TextChanged);
             // 
             // label1
             // 
@@ -89,14 +83,6 @@
             this.label4.TabIndex = 4;
             this.label4.Text = "Qty";
             // 
-            // txtItemName
-            // 
-            this.txtItemName.Location = new System.Drawing.Point(90, 65);
-            this.txtItemName.Name = "txtItemName";
-            this.txtItemName.Size = new System.Drawing.Size(100, 20);
-            this.txtItemName.TabIndex = 5;
-            this.txtItemName.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
             // txtItemId
             // 
             this.txtItemId.Location = new System.Drawing.Point(90, 112);
@@ -119,52 +105,16 @@
             this.btnAdd.TabIndex = 8;
             this.btnAdd.Text = "Add Item";
             this.btnAdd.UseVisualStyleBackColor = true;
-            // 
-            // gvUser
-            // 
-            this.gvUser.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gvUser.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.item_id,
-            this.name,
-            this.Qty,
-            this.Add});
-            this.gvUser.Location = new System.Drawing.Point(196, 12);
-            this.gvUser.Name = "gvUser";
-            this.gvUser.Size = new System.Drawing.Size(349, 341);
-            this.gvUser.TabIndex = 9;
-            this.gvUser.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gvUser_CellContentClick);
-            // 
-            // item_id
-            // 
-            this.item_id.DataPropertyName = "item_id";
-            this.item_id.HeaderText = "Item Id";
-            this.item_id.Name = "item_id";
-            this.item_id.Width = 50;
-            // 
-            // name
-            // 
-            this.name.DataPropertyName = "name";
-            this.name.HeaderText = "Item Name";
-            this.name.Name = "name";
-            // 
-            // Qty
-            // 
-            this.Qty.HeaderText = "Quantity";
-            this.Qty.Name = "Qty";
-            this.Qty.Width = 50;
-            // 
-            // Add
-            // 
-            this.Add.HeaderText = "Add";
-            this.Add.Name = "Add";
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // cmbItemName
             // 
             this.cmbItemName.FormattingEnabled = true;
-            this.cmbItemName.Location = new System.Drawing.Point(12, 202);
+            this.cmbItemName.Location = new System.Drawing.Point(85, 62);
             this.cmbItemName.Name = "cmbItemName";
-            this.cmbItemName.Size = new System.Drawing.Size(121, 21);
+            this.cmbItemName.Size = new System.Drawing.Size(105, 21);
             this.cmbItemName.TabIndex = 10;
+            this.cmbItemName.SelectedIndexChanged += new System.EventHandler(this.cmbItemName_SelectedIndexChanged);
             this.cmbItemName.TextChanged += new System.EventHandler(this.cmbItemName_TextChanged);
             // 
             // ProductItems
@@ -173,11 +123,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(557, 365);
             this.Controls.Add(this.cmbItemName);
-            this.Controls.Add(this.gvUser);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.txtqty);
             this.Controls.Add(this.txtItemId);
-            this.Controls.Add(this.txtItemName);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -186,7 +134,6 @@
             this.Name = "ProductItems";
             this.Text = "ProductItems";
             this.Load += new System.EventHandler(this.ProductItems_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.gvUser)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -199,15 +146,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtItemName;
         private System.Windows.Forms.TextBox txtItemId;
         private System.Windows.Forms.TextBox txtqty;
         private System.Windows.Forms.Button btnAdd;
-        private System.Windows.Forms.DataGridView gvUser;
-        private System.Windows.Forms.DataGridViewTextBoxColumn item_id;
-        private System.Windows.Forms.DataGridViewTextBoxColumn name;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Qty;
-        private System.Windows.Forms.DataGridViewButtonColumn Add;
         private System.Windows.Forms.ComboBox cmbItemName;
     }
 }

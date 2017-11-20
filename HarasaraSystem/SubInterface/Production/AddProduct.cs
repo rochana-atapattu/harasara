@@ -14,7 +14,7 @@ namespace HarasaraSystem.SubInterface.Production
     {
 
         DBAccess db = new DBAccess();
-        public static String ppid;
+        
         public AddProduct()
         {
             InitializeComponent();
@@ -45,7 +45,7 @@ namespace HarasaraSystem.SubInterface.Production
             //    HarasaraSystem.SubInterface.Production.ProductItems.Instance.pid = txtPId.Text;
             //    HarasaraSystem.SubInterface.Production.ProductItems.Instance.BringToFront();
             //}
-            ppid = txtPId.Text;
+            ProductItem.ItemId = txtPId.Text;
             ProductItems pi = new ProductItems();
             pi.ShowDialog();
             

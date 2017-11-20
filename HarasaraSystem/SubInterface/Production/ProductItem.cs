@@ -9,8 +9,9 @@ namespace HarasaraSystem.SubInterface.Production
     public class ProductItem
     {
 
-     public static String ItemId { set; get; }
-     String ProductNo { set; get; }
-     String Qty { set;get;}
+        public static String ItemId;
+     public String ProductNo { set; get; }
+     public String Qty { set;get;}
+     public String ItemName { set; get; }
     }
 }

@@ -241,7 +241,9 @@
     <Compile Include="SubInterface\Production\AddProduct.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SubInterface\Production\AddProduct.Designer.cs" />
+    <Compile Include="SubInterface\Production\AddProduct.Designer.cs">
+      <DependentUpon>AddProduct.cs</DependentUpon>
+    </Compile>
     <Compile Include="SubInterface\Production\Cutting.cs" />
     <Compile Include="SubInterface\Production\DBAccess.cs" />
     <Compile Include="SubInterface\Production\Drilling.cs" />
@@ -273,9 +275,12 @@
     <Compile Include="SubInterface\Production\ProductItems.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SubInterface\Production\ProductItems.Designer.cs" />
+    <Compile Include="SubInterface\Production\ProductItems.Designer.cs">
+      <DependentUpon>ProductItems.cs</DependentUpon>
+    </Compile>
     <Compile Include="SubInterface\Production\ProductService.cs" />
     <Compile Include="SubInterface\Production\Progress.cs" />
+    <Compile Include="SubInterface\Production\requestInventory.cs" />
     <Compile Include="SubInterface\Production\splitOrder.cs" />
     <Compile Include="SubInterface\Sales\Bill.cs">
       <SubType>Form</SubType>
@@ -465,7 +470,9 @@
     <EmbeddedResource Include="SubInterface\Inventory\inv_IssueStock.resx">
       <DependentUpon>inv_IssueStock.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SubInterface\Production\AddProduct.resx" />
+    <EmbeddedResource Include="SubInterface\Production\AddProduct.resx">
+      <DependentUpon>AddProduct.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SubInterface\Production\OrderProcessingUC.resx">
       <DependentUpon>OrderProcessingUC.cs</DependentUpon>
     </EmbeddedResource>
@@ -475,7 +482,9 @@
     <EmbeddedResource Include="SubInterface\Production\ProductionSub.resx">
       <DependentUpon>ProductionSub.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SubInterface\Production\ProductItems.resx" />
+    <EmbeddedResource Include="SubInterface\Production\ProductItems.resx">
+      <DependentUpon>ProductItems.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SubInterface\Sales\Bill.resx">
       <DependentUpon>Bill.cs</DependentUpon>
     </EmbeddedResource>

@@ -23,7 +23,21 @@ namespace HarasaraSystem
     }
 
 
-    
+    public MySqlConnection Open()
+    {
+        MySqlConnection Connection = new MySqlConnection();
+        string connectionString = "Data Source=KasunCS;Initial Catalog=Inventory;Integrated Security=True";
+        try
+        {
+            Connection.ConnectionString = connectionString;
+            Connection.Open();
+        }
+        catch (Exception)
+        {
+            throw;
+        }
+        return Connection;
+    }
 
     public void Close(MySqlConnection Connection)
     {
